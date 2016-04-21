@@ -1,0 +1,41 @@
+[
+  {
+    "ui": 1,
+    "name": "organización 01",
+    "color": "#CCC",
+    "petitions": [
+      {
+        "petition": "petition 01"
+      },
+      {
+        "petition": "petition 02"
+      }
+    ]
+  },
+  {
+    "ui": 2,
+    "name": "organización 02",
+    "color": "#DDD",
+    "petitions": [
+      {
+        "petition": "petition 01"
+      },
+      {
+        "petition": "petition 02"
+      }
+    ]
+  },
+  {
+    "ui": 3,
+    "name": "organización 03",
+    "color": "#EEE",
+    "petitions": [
+      {
+        "petition": "petition 01"
+      },
+      {
+        "petition": "petition 02"
+      }
+    ]
+  }
+]
