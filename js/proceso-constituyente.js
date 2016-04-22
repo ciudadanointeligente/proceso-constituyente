@@ -4,8 +4,8 @@ var app = angular.module('webApp', [], function($interpolateProvider) {
 });
 
 app.controller('homepageController', function($scope,$http){
-  var $scope.orgs = [];
-  var $scope.orgInfo = [];
+  $scope.orgs = [];
+  $scope.orgInfo = [];
 
   $http.get('/data/orgs.json')
     .success(function (data) {

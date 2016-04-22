@@ -3,6 +3,7 @@
     "ui": 1,
     "name": "organización 01",
     "color": "#CCC",
+    "logo": "/img/logo-01.png",
     "petitions": [
       {
         "petition_q": "a- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum.",
@@ -18,6 +19,7 @@
     "ui": 2,
     "name": "organización 02",
     "color": "#DDD",
+    "logo": "/img/logo-01.png",
     "petitions": [
       {
         "petition_q": "c- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum.",
@@ -33,6 +35,7 @@
     "ui": 3,
     "name": "organización 03",
     "color": "#EEE",
+    "logo": "/img/logo-01.png",
     "petitions": [
       {
         "petition_q": "e- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum.",
