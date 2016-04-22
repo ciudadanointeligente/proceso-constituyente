@@ -6,6 +6,8 @@ var app = angular.module('webApp', [], function($interpolateProvider) {
 app.controller('homepageController', function($scope,$http){
   $scope.orgs = [];
   $scope.orgInfo = [];
+  $scope.bgColor = '#FFF';
+  $scope.bgCardColor = "#FFF";
 
   $http.get('/data/orgs.json')
     .success(function (data) {
@@ -16,6 +18,8 @@ app.controller('homepageController', function($scope,$http){
     });
 
   $scope.getOrgInfo = function ($org) {
-    $scope.orgInfo = $org.petitions
+    $scope.bgColor = $org.bg_color;
+    $scope.bgCardColor = $org.bg_card_color;
+    $scope.orgInfo = $org.petitions;
   }
 })

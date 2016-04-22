@@ -6,13 +6,15 @@ layout: default
   <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)">[[org.name]]</li>
 </ul>
 
-<div id="petitions" class="row">
-  <div class="col-sd-3 col-md-3" ng-repeat="petitions in orgInfo">
-    <div class="header">
-      <h3>[[petitions.petition_q]]</h3>
-    </div>
-    <div class="body">
-      <p>[[petitions.petition_a]]</p>
+<div id="petitions" class="row" style="background-color: [[bgColor]]">
+  <div class="col-sd-3 col-md-3" ng-repeat="p in orgInfo">
+    <div style="background-color: [[bgCardColor]]">
+      <div class="header">
+        <h3>[[p.petition_q]]</h3>
+      </div>
+      <div class="body">
+        <p>[[p.petition_a]]</p>
+      </div>
     </div>
   </div>
 </div>
