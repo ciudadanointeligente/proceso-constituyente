@@ -1,6 +1,35 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+$grey-white: #ECF1F2;
+$grey-lighter: #BCC1C5;
+$grey-light: #95A5A5;
+$grey: #808C8C;
+$grey-darker: #4A4A4A;
+$aqua: #1FB89A;
+$aqua-dark: #10A186;
+$green: #4CB96D;
+$green-dark: #1FAD5F;
+$yellow: #EFC41A;
+$yellow-dark: #F29D20;
+$orange: #E57D26;
+$orange-dark: #D45727;
+$red: #E64C3B;
+$red-dark: #C13C2A;
+$purple: #965BA4;
+$purple-dark: #894B9D;
+$blue: #3796D2;
+$blue-dark: #2281BA;
+$stone: #344A5F;
+$stone-dark: #2B3F51;
+
+
+
+
+
+
+
+
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
