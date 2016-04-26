@@ -1,3 +1,16 @@
+/*GENERAL*/
+body {
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $grey;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Raleways', sans-serif;
+}
+
+/*HEADER*/
 header > .navbar-default {
   color: #FFF;
   background-color: #16163A;
@@ -22,10 +35,12 @@ header > .navbar-default {
   min-height: 400px;
 }
 
+/*PETITIONS*/
 #petitions {
   min-height: 500px;
 }
 
+/*FOOTER*/
 footer {
   color: #FFF;
   position: relative;
