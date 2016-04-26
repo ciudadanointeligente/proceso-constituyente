@@ -21,5 +21,6 @@ app.controller('homepageController', function($scope,$http){
     $scope.bgColor = $org.bg_color;
     $scope.bgCardColor = $org.bg_card_color;
     $scope.orgInfo = $org.questions;
+    $scope.orgLogo = $org.logo;
   }
 })

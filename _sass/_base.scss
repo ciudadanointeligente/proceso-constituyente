@@ -71,17 +71,23 @@ li > button.btn.btn-default{
 
 
 /*PETITIONS*/
+img.logo{
+  margin-bottom: 20px;
+}
+
 #petitions {
   min-height: 500px;
-  padding-top: 130px;
+  padding-top: 60px;
   .panel{
     border-radius: 5px;
     box-shadow: none;
+    border: none;
   }
   .panel-default > .panel-heading {
     border-bottom: none;
     background-color: $stone-dark;
     color: #FFF; 
+    border: none;
     h3 {
       font-family: 'Raleway', sans-serif;
       font-size: 18px;

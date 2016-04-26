@@ -2,9 +2,8 @@
   {
     "ui": 1,
     "name": "Fundación Ciudadano Inteligente",
-    "bg_color": "#CCC",
-    "bg_card_color": "#EEE",
-    "logo": "/img/logo-01.png",
+    "bg_color": "#3796D2",
+    "logo": "/img/logo-fci.png",
     "questions": [
       {
         "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
@@ -73,7 +72,6 @@
     "ui": 2,
     "name": "organización 02",
     "bg_color": "#DDD",
-    "bg_card_color": "#FFF",
     "logo": "/img/logo-01.png",
     "questions": [
       {
@@ -121,7 +119,6 @@
     "ui": 3,
     "name": "organización 03",
     "bg_color": "#EEE",
-    "bg_card_color": "#CCC",
     "logo": "/img/logo-01.png",
     "questions": [
       {
