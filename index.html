@@ -7,15 +7,17 @@ layout: default
 </ul>
 
 <div id="petitions" class="row" style="background-color: [[bgColor]]">
-  <div class="col-sd-3 col-md-3 panel panel-default" ng-repeat="p in orgInfo" style="background-color: [[bgCardColor]]">
-      <div class="panel-heading">
-        <h3>[[p.question]]</h3>
-      </div>
-      <div class="panel-body">
-        <div ng-repeat="q in p.petitions">
-          <h4>[[q.petition_q]]</h4>
-          <p>[[q.petition_a]]</p>
+  <div class="col-sd-3 col-md-3" ng-repeat="p in orgInfo">
+    <div class="panel panel-default" style="background-color: [[bgCardColor]]"> 
+        <div class="panel-heading">
+          <h3>[[p.question]]</h3>
         </div>
-      </div>
+        <div class="panel-body">
+          <div ng-repeat="q in p.petitions">
+            <h4>[[q.petition_q]]</h4>
+            <p>[[q.petition_a]]</p>
+          </div>
+        </div>
+    </div>
   </div>
 </div>
