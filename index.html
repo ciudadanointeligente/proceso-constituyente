@@ -10,10 +10,13 @@ layout: default
   <div class="col-sd-3 col-md-3" ng-repeat="p in orgInfo">
     <div style="background-color: [[bgCardColor]]">
       <div class="header">
-        <h3>[[p.petition_q]]</h3>
+        <h3>[[p.question]]</h3>
       </div>
       <div class="body">
-        <p>[[p.petition_a]]</p>
+        <div ng-repeat="q in p.petitions">
+          <h4>[[q.petition_q]]</h4>
+          <p>[[q.petition_a]]</p>
+        </div>
       </div>
     </div>
   </div>
