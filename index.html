@@ -3,11 +3,11 @@ layout: default
 ---
 
 <ul class="list-inline">
-  <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)">[[org.name]]</li>
+  <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default">[[org.name]]</button></li>
 </ul>
 
 <div id="petitions" class="row" style="background-color: [[bgColor]]">
-  <div class="col-sd-3 col-md-3" ng-repeat="p in orgInfo">
+  <div class="col-sm-6 col-md-3" ng-repeat="p in orgInfo">
     <div class="panel panel-default"> 
         <div class="panel-heading">
           <h3>[[p.question]]</h3>
