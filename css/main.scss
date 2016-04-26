@@ -1,6 +1,8 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+@charset "utf-8";
+
 $grey-white: #FFFFFD;
 $grey-lighter: #BCC1C5;
 $grey-light: #95A5A5;
@@ -22,15 +24,6 @@ $blue: #3796D2;
 $blue-dark: #2281BA;
 $stone: #344A5F;
 $stone-dark: #2B3F51;
-
-
-
-
-
-
-
-
-@charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base";
