@@ -73,13 +73,15 @@ li > button.btn.btn-default{
 /*PETITIONS*/
 #petitions {
   min-height: 500px;
+  padding-top: 130px;
   .panel{
     border-radius: 5px;
     box-shadow: none;
   }
   .panel-default > .panel-heading {
     border-bottom: none;
-    background-color: #FFF;
+    background-color: $stone-dark;
+    color: #FFF; 
     h3 {
       font-family: 'Raleway', sans-serif;
       font-size: 18px;
@@ -88,6 +90,7 @@ li > button.btn.btn-default{
   }
 
   .panel-body {
+    background-color: #FFF;
     p {
       font-family: 'Lato', sans-serif;
     }
@@ -97,7 +100,7 @@ li > button.btn.btn-default{
       font-size: 16px;
       margin-top: 20px;
       margin-bottom: 5px;
-      font-weight: 700; 
+      font-weight: 700;
     }
   }
 }
