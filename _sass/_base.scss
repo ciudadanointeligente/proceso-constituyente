@@ -8,10 +8,12 @@ body {
 
 /*HEADER*/
 header > .navbar-default {
+  height: 70px;
   color: #FFF;
-  background-color: #16163A;
-  border-color: #16163A;
-  border-radius: initial;
+  font-family: 'Raleway', sans-serif;
+  background-color: $stone-dark;
+  border: none;
+  border-radius: 0;
   margin-bottom: initial;
   .navbar-brand, .navbar-brand:hover {
     color: #FFF;
@@ -23,6 +25,10 @@ header > .navbar-default {
   .navbar-nav > li > a, .navbar-nav > li > a:hover {
     color: #FFF;
   }
+}
+
+.brand{
+  margin-top: 10px;
 }
 
 #main-header {
