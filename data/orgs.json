@@ -5,16 +5,48 @@
     "bg_color": "#CCC",
     "bg_card_color": "#EEE",
     "logo": "/img/logo-01.png",
-    "petitions": [
+    "questions": [
       {
-        "petition_q": "a- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum.",
-        "petition_a": "petition 01"
+        "question": "question 01",
+        "petitions": [
+          {
+            "petition_q": "a- petition 01",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          },
+          {
+            "petition_q": "b- petition 02",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          }
+        ]
       },
       {
-        "petition_q": "b- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum.",
-        "petition_a": "petition 02"
+        "question": "question 02",
+        "petitions": [
+          {
+            "petition_q": "c- petition 03",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          },
+          {
+            "petition_q": "d- petition 04",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          }
+        ]
+      },
+      {
+        "question": "question 03",
+        "petitions": [
+          {
+            "petition_q": "a- petition 05",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          },
+          {
+            "petition_q": "b- petition 06",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          }
+        ]
       }
     ]
+
   },
   {
     "ui": 2,
@@ -22,14 +54,45 @@
     "bg_color": "#DDD",
     "bg_card_color": "#FFF",
     "logo": "/img/logo-01.png",
-    "petitions": [
+    "questions": [
       {
-        "petition_q": "c- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum.",
-        "petition_a": "petition 03"
+        "question": "question 04",
+        "petitions": [
+          {
+            "petition_q": "a- petition 07",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          },
+          {
+            "petition_q": "b- petition 08",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          }
+        ]
       },
       {
-        "petition_q": "d- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum.",
-        "petition_a": "petition 04"
+        "question": "question 05",
+        "petitions": [
+          {
+            "petition_q": "c- petition 09",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          },
+          {
+            "petition_q": "d- petition 10",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          }
+        ]
+      },
+      {
+        "question": "question 06",
+        "petitions": [
+          {
+            "petition_q": "a- petition 11",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          },
+          {
+            "petition_q": "b- petition 12",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          }
+        ]
       }
     ]
   },
@@ -39,14 +102,45 @@
     "bg_color": "#EEE",
     "bg_card_color": "#CCC",
     "logo": "/img/logo-01.png",
-    "petitions": [
+    "questions": [
       {
-        "petition_q": "e- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum.",
-        "petition_a": "petition 05"
+        "question": "question 07",
+        "petitions": [
+          {
+            "petition_q": "a- petition 13",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          },
+          {
+            "petition_q": "b- petition 14",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          }
+        ]
       },
       {
-        "petition_q": "f- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum.",
-        "petition_a": "petition 06"
+        "question": "question 08",
+        "petitions": [
+          {
+            "petition_q": "c- petition 15",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          },
+          {
+            "petition_q": "d- petition 16",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          }
+        ]
+      },
+      {
+        "question": "question 09",
+        "petitions": [
+          {
+            "petition_q": "a- petition 17",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          },
+          {
+            "petition_q": "b- petition 18",
+            "petition_a": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam odit, consequuntur esse, at sed impedit omnis eius exercitationem aut optio harum."
+          }
+        ]
       }
     ]
   }
