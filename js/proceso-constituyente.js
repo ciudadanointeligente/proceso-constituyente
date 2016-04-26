@@ -20,6 +20,6 @@ app.controller('homepageController', function($scope,$http){
   $scope.getOrgInfo = function ($org) {
     $scope.bgColor = $org.bg_color;
     $scope.bgCardColor = $org.bg_card_color;
-    $scope.orgInfo = $org.petitions;
+    $scope.orgInfo = $org.questions;
   }
 })
