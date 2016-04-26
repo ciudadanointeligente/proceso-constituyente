@@ -39,6 +39,15 @@ header > .navbar-default {
 }
 
 /*WELCOME*/
+.ng-scope{
+  h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  color: $grey-darker;
+  font-weight: 700;
+  }
+}
+
 .container.text-center{
   padding: 120px 0 160px 0;
 }
