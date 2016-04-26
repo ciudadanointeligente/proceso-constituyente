@@ -32,6 +32,16 @@ header > .navbar-default {
 }
 
 /*PETITIONS*/
+.ng-scope{
+  .panel{
+    border-radius: 5px;
+  }
+  .panel-default>.panel-heading{
+    border-bottom: none;
+    background-color: #FFF;
+  }
+}
+
 #petitions {
   min-height: 500px;
 }
