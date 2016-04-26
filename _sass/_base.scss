@@ -6,10 +6,6 @@ body {
   color: $grey;
 }
 
-h1, h2, h3, h4, h5{
-  font-family: 'Raleways', sans-serif;
-}
-
 /*HEADER*/
 header > .navbar-default {
   color: #FFF;
@@ -38,6 +34,23 @@ header > .navbar-default {
 /*PETITIONS*/
 #petitions {
   min-height: 500px;
+}
+
+p.ng-binding{
+  font-family: 'Lato', sans-serif;
+}
+
+h3.ng-binding{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h4.ng-binding{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 /*FOOTER*/
