@@ -124,6 +124,11 @@ img.logo{
 }
 
 /*FOOTER*/
+.patronancho{
+  background-image: url('/img/color-footer.png');
+  height: 16px;
+}
+
 footer {
   color: #FFF;
   position: relative;
@@ -133,5 +138,5 @@ footer {
   a, a:hover {
     color: #FFF;
   }
-  background-color: $stone-dark;
+  background-color: $stone;
 }
