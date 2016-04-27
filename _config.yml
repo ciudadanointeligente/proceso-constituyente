@@ -10,9 +10,9 @@ title: Proceso Constituyente
 email: your-email@domain.com
 description: "descripción del sitio"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://procesoconstituyente.cl" # the base hostname & protocol for your site
+url: "http://cabildeas.cl" # the base hostname & protocol for your site
 twitter: procesoconstituyente
-analytics: "UA-xxxxxxxx-x"
+analytics: "UA-76464035-2"
 
 # Build settings
 markdown: kramdown

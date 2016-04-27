@@ -36,6 +36,9 @@ header > .navbar-default {
   background-color: $grey-white;
   background: url('/personas.png') 50%/auto no-repeat;
   min-height: 400px;
+  img {
+    margin: 0 auto;
+  }
 }
 
 .patron{
@@ -54,7 +57,7 @@ header > .navbar-default {
   }
   p.bajada{
     font-family: 'Lato', sans-serif;
-    font-size: 20px; 
+    font-size: 20px;
   }
   a{
     color: $orange;
@@ -96,7 +99,7 @@ img.logo{
   .panel-default > .panel-heading {
     border-bottom: none;
     background-color: $stone-dark;
-    color: #FFF; 
+    color: #FFF;
     border: none;
     h3 {
       font-family: 'Raleway', sans-serif;
