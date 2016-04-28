@@ -145,3 +145,10 @@ footer {
     float: bottom;
   }
 }
+
+@media (max-width: 767px) {
+  footer{
+    height: 350px;
+  }
+
+}
