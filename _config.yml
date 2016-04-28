@@ -10,7 +10,7 @@ title: Cabildeas
 email: your-email@domain.com
 description: "descripción del sitio"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://cabildeas.cl" # the base hostname & protocol for your site
+basedomain: cabildeas.cl
 twitter: procesoconstituyente
 analytics: "UA-76464035-2"
 

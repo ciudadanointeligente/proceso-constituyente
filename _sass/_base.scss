@@ -51,6 +51,11 @@ header > .navbar-default {
   }
 }
 
+.fa-stack{
+  margin-top: -9px;
+  color: $blue;
+}
+
 #main-header {
   background-color: $grey-white;
   background: url('/personas.png') 50%/auto no-repeat;
@@ -103,6 +108,12 @@ li > button.btn.btn-default{
   margin-top: 10px;
 }
 
+li > button.btn.btn-default:hover{
+  background-color: $green;
+  color: #FFF;
+  border: none;
+  margin-top: 10px;
+}
 
 /*PETITIONS*/
 img.logo{
