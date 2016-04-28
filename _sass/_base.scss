@@ -9,7 +9,7 @@ body {
 
 /*HEADER*/
 header > .navbar-default {
-  height: 70px;
+  height: 85px;
   color: #FFF;
   font-family: 'Raleway', sans-serif;
   background-color: $stone-dark;
@@ -26,10 +26,29 @@ header > .navbar-default {
   .navbar-nav > li > a, .navbar-nav > li > a:hover {
     color: #FFF;
   }
+  .navbar-right{
+    margin-top: 15px;
+  }
+  .navbar-toggle{
+    margin-top: -60px;
+  }
 }
 
 .brand{
-  margin-top: 10px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+.sub-brand{
+  margin-top: 5px;
+  padding-left: 45px;
+  a{
+    color: $grey-white;
+  }
+  a:hover{
+    color: $grey-white;
+    text-decoration: none;
+  }
 }
 
 #main-header {
