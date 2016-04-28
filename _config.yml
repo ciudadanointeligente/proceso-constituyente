@@ -8,7 +8,7 @@
 # Site settings
 title: Cabildeas
 email: your-email@domain.com
-description: "descripción del sitio"
+description: "Plataforma de la Red Populusaurio para compartir ideas que estas organizaciones tienen respecto de los temas a tratar en el Proceso Constituyente."
 baseurl: "" # the subpath of your site, e.g. /blog
 basedomain: cabildeas.cl
 twitter: procesoconstituyente
