@@ -67,6 +67,7 @@ header > .navbar-default {
 
 /*WELCOME*/
 #main-header{
+  padding-top: 80px;
   h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 28px;
@@ -98,6 +99,7 @@ li > button.btn.btn-default{
   background-color: $stone;
   color: #FFF;
   border: none;
+  margin-top: 10px;
 }
 
 
