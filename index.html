@@ -7,7 +7,7 @@ layout: default
       <div class="col-md-12">
         <img src="/img/welcome.png" class="img-responsive" alt="Cabildeas">
         <h2>Ideas desde la sociedad civil para el proceso constituyente</h2>
-        <p class="bajada">Haz click en cada organización para conocer sus opiniones respecto a las temáticas a tocar en los encuentros locales y en la consulta individual. Si quieres conocer cómo participar de estos y otros espacios, recuerda informarte en <a href="//www.unaconstitucionparachile.cl">www.unaconstitucionparachile.cl</a></p>
+        <p class="bajada">Haz click en cada organización para conocer sus opiniones respecto a las temáticas a tocar en los encuentros locales y en la consulta individual. Si quieres conocer cómo participar de estos y otros espacios, recuerda informarte en <a href="//www.unaconstitucionparachile.cl" onClick="ga('send', 'event', 'link-main-header', 'click');">www.unaconstitucionparachile.cl</a></p>
       </div>
     </div>
   </div>
@@ -16,7 +16,7 @@ layout: default
 <section>
   <div class="container">
     <ul class="list-inline text-center">
-      <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default">[[org.name]]</button></li>
+      <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default" onClick="ga('send', 'event', '[[org.name]]', 'click');">[[org.name]]</button></li>
     </ul>
   </div>
 </section>
@@ -28,7 +28,7 @@ layout: default
       <img src="[[orgLogo]]" class="logo">
     </div>
       <div class="col-sm-6 col-md-3" ng-repeat="p in orgInfo">
-        <div class="panel panel-default"> 
+        <div class="panel panel-default">
             <div class="panel-heading">
               <i class="fa fa-bookmark fa-lg" aria-hidden="true"></i>
               <h3>[[p.question]]</h3>
@@ -48,4 +48,4 @@ layout: default
 <div>
   <div class="patronancho">
   </div>
-</div> 
+</div>

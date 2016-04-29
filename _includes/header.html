@@ -3,42 +3,38 @@
     <div class="container">
       <div class="navbar-header">
         <div class="brand">
-          <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/logo.png"></a>
-          <div class="sub-brand"><a href="//populusaurio.cl" target="_blank">de <img src="{{ site.baseurl }}/img/logo-popu.png"></a>
-          </div>
+          <a class="site-title" href="{{ site.baseurl }}/" onClick="ga('send', 'event', 'main-brand', 'click');"><img src="{{ site.baseurl }}/img/logo.png"></a>
+          <div class="sub-brand"><a href="//populusaurio.cl" target="_blank" onClick="ga('send', 'event', 'sub-brand', 'click');">de <img src="{{ site.baseurl }}/img/logo-popu.png"></a></div>
         </div>
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+        <button type="button" class="navbar-toggle collapsed" onClick="ga('send', 'event', 'mobile-menu', 'click');" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="{{ site.baseurl }}/quienes-somos.html">Quiénes somos</a></li>
-<li class="redes">
-        <a href="#" onclick="window.open(&quot;//twitter.com/share?&amp;text=Cabildeas.cl, la plataforma de Populusaurio con ideas de la sociedad civil para las conversaciones sobre la Nueva Constitución&quot;,&quot;twitter&quot;,&quot;width=450, height=250&quot;)">
-        <span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-        </span>
-        </a>
-        </li>
-        <li class="redes">
-        <a href="#" onclick="window.open(&quot;//www.facebook.com/sharer/sharer.php?u=http://cabildeas.cl/&quot;,&quot;facebook&quot;,&quot;width=450, height=250&quot;)">
-        <span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-        </span>
-        </a>
-        </li>        </ul>
+          <li><a href="{{ site.baseurl }}/quienes-somos.html" onClick="ga('send', 'event', 'about-us', 'click');">Quiénes somos</a></li>
+          <li class="redes">
+            <a href="#" onclick="ga('send', 'event', 'twitter-share', 'click'); window.open(&quot;//twitter.com/share?&amp;text=Cabildeas.cl, la plataforma de Populusaurio con ideas de la sociedad civil para las conversaciones sobre la Nueva Constitución&quot;,&quot;twitter&quot;,&quot;width=450, height=250&quot;)">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="redes">
+            <a href="#" onclick="ga('send', 'event', 'facebook-share', 'click'); window.open(&quot;//www.facebook.com/sharer/sharer.php?u=//cabildeas.cl/&quot;,&quot;facebook&quot;,&quot;width=450, height=250&quot;)">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-  <div class="patron">
-  </div>
+    <div class="patron"></div>
   </nav>
 </header>
-
-
-Cabideas.cl, la plataforma de @Populusaurio con ideas de la sociedad civil para las conversaciones sobre la Nueva Constitución

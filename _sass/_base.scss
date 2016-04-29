@@ -184,7 +184,7 @@ img.logo{
 
 footer {
   font-family: 'Raleway', sans-serif;
-  padding-top: 40px; 
+  padding-top: 40px;
   color: #FFF;
   position: relative;
   bottom: 0;
@@ -193,11 +193,12 @@ footer {
   background-color: $stone;
   a, a:hover {
     color: #FFF;
+    img {
+      padding: 20px;
+      margin: 0 auto;
+    }
   }
-  img{
-    padding: 20px;
-    float: bottom;
-  }
+
 }
 
 @media (max-width: 767px) {
