@@ -22,5 +22,7 @@ app.controller('homepageController', function($scope,$http){
     $scope.bgCardColor = $org.bg_card_color;
     $scope.orgInfo = $org.questions;
     $scope.orgLogo = $org.logo;
+
+    ga('send', 'event', '$org.name', 'click');
   }
 })
