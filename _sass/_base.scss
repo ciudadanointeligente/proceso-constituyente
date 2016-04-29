@@ -205,4 +205,13 @@ footer {
     height: 350px;
   }
 
+  header > .navbar-default .navbar-nav > li > a, header > .navbar-default .navbar-nav > li > a:hover{
+    background-color: $stone-dark;
+    margin: -12px 0 -8px 0;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border: none;
+  }
+
 }
