@@ -9,16 +9,16 @@
         "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
         "petitions": [
           {
-            "petition_q": "PROBIDAD",
-            "petition_a": "Consideramos necesario que la constitución oriente el ejercicio de la función pública y su reglamentación a la búsqueda del bien común previniendo que se produzcan faltas a la probidad que puedan favorecer los intereses de unos pocos por sobre los de la mayoría."
+            "petition_q": "INCLUSIÓN",
+            "petition_a": ""
           },
           {
-            "petition_q": "PARTICIPACIÓN",
-            "petition_a": "Entendemos que la participación de más grupos en los procesos políticos permite que estos cuenten con una visión íntegra y compleja de los problemas que se pretenden resolver y dotarlos de legitimidad sufienciente para que sus resultados sean reconocidos y respetados por todos."
+            "petition_q": "DESARROLLO IGUALITARIO",
+            "petition_a": ""
           },
           {
-            "petition_q": "TRANSPARENCIA",
-            "petition_a": "La información es un medio fundamental para que la ciudadanía pueda participar de forma incidente en los procesos de toma de decisiones y rendición de cuentas. Por ello, toda información relativa al interés público, debe estar disponible para la ciudadanía."
+            "petition_q": "GARANTÍA TRANSVERSAL DE DD.HH.",
+            "petition_a": "Con especial impacto la garantía de derechos de niños y niñas."
           }
         ]
       },
@@ -26,16 +26,20 @@
         "question": "¿Cuáles son los derechos, deberes y/o responsabilidades más importantes que el debate constitucional debe considerar?",
         "petitions": [
           {
-            "petition_q": "DERECHO A LA PARTICIPACIÓN",
-            "petition_a": "Consideremos que debe estar consagrado y garantizado el derecho de la ciudadanía a participar de forma incidente, transparente y equitativa en los distintos procesos de tomas de decisiones y procesos políticos que se presenten en nuestro sistema democrático."
+            "petition_q": "DERECHO A EDUCACIÓN DE CALIDAD Y GRATUITA",
+            "petition_a": ""
           },
           {
-            "petition_q": "DERECHO DE ACCESO A LA INFORMACIÓN",
-            "petition_a": "El derecho de acceso a la información debe estar consagrado y garantizado para que los ciudadanos podamos participar y exigir rendición de cuentas a nuestros representantes respecto de los asuntos públicos. Además, es muy relevante para la generación de innovación y conocimiento por parte de instituciones y ciudadanía en general. La información debe estar disponible en formatos y a través de mecanismos accesibles para toda la ciudadanía."
+            "petition_q": "DERECHO A SALUD DE CALIDAD",
+            "petition_a": ""
           },
           {
-            "petition_q": "DEBER DE RENDICIÓN DE CUENTAS",
-            "petition_a": "Consideramos que se debe consagrar al más alto nivel la obligación de las autoridades y representantes de rendir cuentas ante la ciudadanía del desempeño en sus cargos y de hacerse responsable de las faltas o infracciones que puedan haber cometido en el ejercicio de sus funciones."
+            "petition_q": "DERECHO AL ACCESO A OPORTUNIDADES Y A UN SALARIO JUSTO",
+            "petition_a": "Que alcance para una buena calidad de vida de las personas."
+          },
+          {
+            "petition_q": "DEBER DE RESPETO Y NO DISCRIMINACIÓN",
+            "petition_a": "Deber de respeto, inclusión y no discriminación para todos/as los/as ciudadanos/as sin importar nacionalidad, raza, género, edad, orientación sexual, intereses u otros."
           }
         ]
       },
@@ -43,16 +47,20 @@
         "question": "¿Cuáles son las instituciones del Estado más importantes para el debate constitucional y qué características deberían tener?",
         "petitions": [
           {
-            "petition_q": "SERVICIO ELECTORAL",
-            "petition_a": "Un servicio público, autónomo y técnico encargado de velar por el cumplimiento de las reglas de la democracia y de sancionar, luego de un debido proceso, a los responsables por las infracciones que al respecto cometan."
+            "petition_q": "MINISTERIO DE DERECHOS HUMANOS",
+            "petition_a": ""
           },
           {
-            "petition_q": "CONSEJO PARA LA TRANSPARENCIA",
-            "petition_a": "Un servicio público, autónomo y técnico encargado de velar por el cumplimiento de las reglas de transparencia y acceso da la información y de sancionar, luego de un debido proceso, a los responsables por las infracciones que al respecto cometan."
+            "petition_q": "MINISTERIO DE EDUCACIÓN",
+            "petition_a": ""
           },
           {
-            "petition_q": "INICIATIVA POPULAR DE LEY",
-            "petition_a": "Creemos que una nueva constitución es una oportunidad importante para abrir nuevos canales de participación ciudadana en los más altos niveles de la actividad democrática, para ello consideramos que sería adecuado incorporar la posibilidad de que sea la ciudadanía la que proponga asuntos a regular al Congreso respecto de las cuales este último tenga la obligación de pronunciarse cuando se reúnan ciertos requisitos mínimos."
+            "petition_q": "MINISTERIO DE DESARROLLO SOCIAL",
+            "petition_a": ""
+          },
+          {
+            "petition_q": "MINISTERIO DE SALUD",
+            "petition_a": ""
           }
         ]
       },
@@ -60,8 +68,8 @@
         "question": "¿Cuál debería ser la instancia encargada de redactar una nueva constitución?",
         "petitions": [
           {
-            "petition_q": "SERVICIO ELECTORAL",
-            "petition_a": "Un servicio público, autónomo y técnico encargado de velar por el cumplimiento de las reglas de la democracia y de sancionar, luego de un debido proceso, a los responsables por las infracciones que al respecto cometan."
+            "petition_q": "PLEBISCITO CIUDADANO",
+            "petition_a": "Plebiscito para que la ciudadanía escoja entre las alternativas anteriores (Congreso, Comisión Mixta o Asamblea Constituyente)."
           }
         ]
       }
