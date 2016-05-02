@@ -24,5 +24,9 @@ app.controller('homepageController', function($scope,$http){
     $scope.orgLogo = $org.logo;
 
     ga('send', 'event', '$org.name', 'click');
+
+    $('html, body').animate({
+      scrollTop: $('#org-details').offset().top
+    }, 0);
   }
 })

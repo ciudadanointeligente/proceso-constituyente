@@ -73,7 +73,7 @@ header > .navbar-default {
 /*WELCOME*/
 #main-header{
   text-align: center;
-  padding: 210px 0 90px 0;
+  padding: 135px 0 50px 0;
   h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 28px;
@@ -215,4 +215,10 @@ footer {
     border: none;
   }
 
+}
+
+@media(min-width: 768px) {
+  #main-header {
+    padding: 210px 0 90px 0;
+  }
 }
