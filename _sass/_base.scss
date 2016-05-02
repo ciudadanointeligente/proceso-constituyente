@@ -7,6 +7,8 @@ body {
   background-color: $grey-white;
 }
 
+
+
 /*HEADER*/
 header > .navbar-default {
   height: 85px;
@@ -171,6 +173,14 @@ img.logo{
     font-family: 'Lato', sans-serif;
     color: $grey-darker;
     font-size: 15px;
+  }
+  a{
+    color: $orange;
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: $blue;
   }
 }
 
