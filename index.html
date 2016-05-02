@@ -19,7 +19,7 @@ layout: default
       <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default">[[org.name]]</button></li>
     </ul>
 
-    <div class="text-center">
+    <div class="selector">
       <select name="organizations" id="organizations" class="visible-xs" ng-model="org" ng-options="org.name for org in orgs track by org.uid" ng-change="getOrgInfo(org,true)">
     </div>
     </select>

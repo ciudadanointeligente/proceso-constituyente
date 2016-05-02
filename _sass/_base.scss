@@ -211,6 +211,20 @@ footer {
 
 }
 
+.selector{
+    text-align: -webkit-center;
+}
+
+select#organizations{
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    background-color: $stone;
+    height: 36px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+
 @media (max-width: 767px) {
   footer{
     height: 350px;
