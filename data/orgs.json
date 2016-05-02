@@ -477,16 +477,16 @@
         "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
         "petitions": [
           {
-            "petition_q": "PROBIDAD",
-            "petition_a": "Consideramos necesario que la constitución oriente el ejercicio de la función pública y su reglamentación a la búsqueda del bien común previniendo que se produzcan faltas a la probidad que puedan favorecer los intereses de unos pocos por sobre los de la mayoría."
+            "petition_q": "DEMOCRACIA PARITARIA",
+            "petition_a": "Las mujeres somos la mitad de la población, necesitamos una Constitución que nos reconozca y  no se limite a asegurar cuotas y porcentajes de participación en lo público. Una  verdadera democracia debe ser paritaria y para esto se requiere la redistribución de las cargas públicas y privadas entre hombres y mujeres en igualdad de condiciones."
           },
           {
-            "petition_q": "PARTICIPACIÓN",
-            "petition_a": "Entendemos que la participación de más grupos en los procesos políticos permite que estos cuenten con una visión íntegra y compleja de los problemas que se pretenden resolver y dotarlos de legitimidad sufienciente para que sus resultados sean reconocidos y respetados por todos."
+            "petition_q": "IGUALDAD",
+            "petition_a": "Igualdad Formal y Material entre hombres y mujeres. Las normas no son neutras, la apariencia de neutralidad (que son para todos iguales) a invisibilizado  las relaciones de poder desigual entre hombres y mujeres,  que están a la base de la discriminación. Por lo tanto necesitamos una Constitución que no solo reconozca la igualdad de género, si no que establezca mecanismos para hacerla efectiva."
           },
           {
-            "petition_q": "TRANSPARENCIA",
-            "petition_a": "La información es un medio fundamental para que la ciudadanía pueda participar de forma incidente en los procesos de toma de decisiones y rendición de cuentas. Por ello, toda información relativa al interés público, debe estar disponible para la ciudadanía."
+            "petition_q": "PERSPECTIVA DE GÉNERO TRANSVERSAL",
+            "petition_a": "La Constitución establece normas básicas para la distribución del poder y la vida en sociedad, por lo tanto la perspectiva de género debe ser trasversal a todo el texto Constitucional y un principio que regule la acción pública a todo nivel."
           }
         ]
       },
@@ -494,16 +494,20 @@
         "question": "¿Cuáles son los derechos, deberes y/o responsabilidades más importantes que el debate constitucional debe considerar?",
         "petitions": [
           {
-            "petition_q": "DERECHO A LA PARTICIPACIÓN",
-            "petition_a": "Consideremos que debe estar consagrado y garantizado el derecho de la ciudadanía a participar de forma incidente, transparente y equitativa en los distintos procesos de tomas de decisiones y procesos políticos que se presenten en nuestro sistema democrático."
+            "petition_q": "DERECHO DE LAS MUJERES A UNA VIDA LIBRE DE VIOLENCIA",
+            "petition_a": "El derecho internacional de los derechos humanos consagra este derecho y reconoce que a la base de la violencia se encuentra la discriminación histórica de que son objeto las mujeres. La Constitución debe reconocer el derecho a la vida libre de violencia en todas sus manifestaciones y expresiones y la obligación del Estado para prevenir, sancionar y erradicar todas las formas de violencia contra las mujeres"
           },
           {
-            "petition_q": "DERECHO DE ACCESO A LA INFORMACIÓN",
-            "petition_a": "El derecho de acceso a la información debe estar consagrado y garantizado para que los ciudadanos podamos participar y exigir rendición de cuentas a nuestros representantes respecto de los asuntos públicos. Además, es muy relevante para la generación de innovación y conocimiento por parte de instituciones y ciudadanía en general. La información debe estar disponible en formatos y a través de mecanismos accesibles para toda la ciudadanía."
+            "petition_q": "DERECHO DE LAS MUJERES A DECIDIR SOBRE SUS CUERPOS",
+            "petition_a": "Necesitamos una Constitución que reconozca la autonomía y libertad de las mujeres para decidir sobre sus cuerpos, esto es la base para poder ejercer cualquier otro derecho. El texto Constitucional debe reconocer por tanto los derechos sexuales y reproductivos, la maternidad voluntaria, la decisión de número de hijos/as entre otros."
           },
           {
-            "petition_q": "DEBER DE RENDICIÓN DE CUENTAS",
-            "petition_a": "Consideramos que se debe consagrar al más alto nivel la obligación de las autoridades y representantes de rendir cuentas ante la ciudadanía del desempeño en sus cargos y de hacerse responsable de las faltas o infracciones que puedan haber cometido en el ejercicio de sus funciones."
+            "petition_q": "RECONOCIMIENTO DEL TRABAJO DOMÉSTICO COMO LABOR PRODUCTIVA",
+            "petition_a": "La Constitución debe reconocer el igual valor tanto del trabajo productivo como reproductivo y en consecuencia reconocer el trabajo doméstico y de cuidados en su función social y económica."
+          },
+          {
+            "petition_q": "DEBER DE RESPETO DE LOS TRATADOS INTERNACIONALES",
+            "petition_a": "Deber de Cumplimiento de tratados y obligaciones internacionales."
           }
         ]
       },
@@ -511,16 +515,16 @@
         "question": "¿Cuáles son las instituciones del Estado más importantes para el debate constitucional y qué características deberían tener?",
         "petitions": [
           {
-            "petition_q": "SERVICIO ELECTORAL",
-            "petition_a": "Un servicio público, autónomo y técnico encargado de velar por el cumplimiento de las reglas de la democracia y de sancionar, luego de un debido proceso, a los responsables por las infracciones que al respecto cometan."
+            "petition_q": "INSTITUCIONALIDAD DE DERECHOS HUMANOS",
+            "petition_a": "Institucionalidad de Derechos Humanos que entienda  los derechos humanos en su condición de indivisibles,  interdependientes,  y no jerarquizados, capaz de promover y proteger los derechos en forma integral y de la diversidad de quienes componen la sociedad chilena."
           },
           {
-            "petition_q": "CONSEJO PARA LA TRANSPARENCIA",
-            "petition_a": "Un servicio público, autónomo y técnico encargado de velar por el cumplimiento de las reglas de transparencia y acceso da la información y de sancionar, luego de un debido proceso, a los responsables por las infracciones que al respecto cometan."
+            "petition_q": "CONGRESO UNICAMERAL E INICIATIVA POPULAR DE LEY",
+            "petition_a": "Actualmente nuestro Congreso se compone de dos cámaras (Senado y Cámara de Diputados/as) es importante discutir respecto de la eficacia del actual sistema, de la posibilidad de tener un congreso Unicameral  y se debe incorporar la iniciativa ciudadana de Ley."
           },
           {
-            "petition_q": "INICIATIVA POPULAR DE LEY",
-            "petition_a": "Creemos que una nueva constitución es una oportunidad importante para abrir nuevos canales de participación ciudadana en los más altos niveles de la actividad democrática, para ello consideramos que sería adecuado incorporar la posibilidad de que sea la ciudadanía la que proponga asuntos a regular al Congreso respecto de las cuales este último tenga la obligación de pronunciarse cuando se reúnan ciertos requisitos mínimos."
+            "petition_q": "PLEBISCITOS, REFERENDOS Y CONSULTAS",
+            "petition_a": "Es importante que queden establecidos en la Constitución y que permitan a ciudadanos/as poder tener voz y decisión en temas y decisiones relevantes de la vida nacional."
           }
         ]
       },
@@ -528,8 +532,8 @@
         "question": "¿Cuál debería ser la instancia encargada de redactar una nueva constitución?",
         "petitions": [
           {
-            "petition_q": "SERVICIO ELECTORAL",
-            "petition_a": "Un servicio público, autónomo y técnico encargado de velar por el cumplimiento de las reglas de la democracia y de sancionar, luego de un debido proceso, a los responsables por las infracciones que al respecto cometan."
+            "petition_q": "",
+            "petition_a": "Asamblea Constituyente Paritaria."
           }
         ]
       }
