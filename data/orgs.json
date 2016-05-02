@@ -281,16 +281,16 @@
         "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
         "petitions": [
           {
-            "petition_q": "PROBIDAD",
-            "petition_a": "Consideramos necesario que la constitución oriente el ejercicio de la función pública y su reglamentación a la búsqueda del bien común previniendo que se produzcan faltas a la probidad que puedan favorecer los intereses de unos pocos por sobre los de la mayoría."
+            "petition_q": "ENFOQUE DE DERECHOS",
+            "petition_a": "Uno de los principios rectores de una nueva Constitución debe ser el reconocimiento, respeto y protección de los Derechos Humanos de primera y segunda generación. Cada derecho civil, político, social, cultural o económico que se estipule, implica una sociedad que acuerda proteger ciertas capacidades y necesidades inherentes a la dignidad y realización humanas."
           },
           {
             "petition_q": "PARTICIPACIÓN",
-            "petition_a": "Entendemos que la participación de más grupos en los procesos políticos permite que estos cuenten con una visión íntegra y compleja de los problemas que se pretenden resolver y dotarlos de legitimidad sufienciente para que sus resultados sean reconocidos y respetados por todos."
+            "petition_a": "Otro principio transversal que debe quedar adecuadamente plasmado en la nueva Constitución es el de la participación, entendido como el derecho de todo miembro de la sociedad de tomar parte activa de las decisiones que le atañen en sus espacios local, regional y nacional, ya sea de modo individual o colectivo."
           },
           {
-            "petition_q": "TRANSPARENCIA",
-            "petition_a": "La información es un medio fundamental para que la ciudadanía pueda participar de forma incidente en los procesos de toma de decisiones y rendición de cuentas. Por ello, toda información relativa al interés público, debe estar disponible para la ciudadanía."
+            "petition_q": "DESCENTRALIZACIÓN",
+            "petition_a": "El ejercicio del poder político establecido en la Constitución debe distribuirse bajo criterios de equidad, que permitan el reconocimiento y desarrollo de capacidades de gobernanza a nivel local. Esto implica transferir responsabilidades y funciones públicas desde el nivel central a las regiones, provincias y comunas que componen nuestro territorio nacional."
           }
         ]
       },
@@ -299,15 +299,7 @@
         "petitions": [
           {
             "petition_q": "DERECHO A LA PARTICIPACIÓN",
-            "petition_a": "Consideremos que debe estar consagrado y garantizado el derecho de la ciudadanía a participar de forma incidente, transparente y equitativa en los distintos procesos de tomas de decisiones y procesos políticos que se presenten en nuestro sistema democrático."
-          },
-          {
-            "petition_q": "DERECHO DE ACCESO A LA INFORMACIÓN",
-            "petition_a": "El derecho de acceso a la información debe estar consagrado y garantizado para que los ciudadanos podamos participar y exigir rendición de cuentas a nuestros representantes respecto de los asuntos públicos. Además, es muy relevante para la generación de innovación y conocimiento por parte de instituciones y ciudadanía en general. La información debe estar disponible en formatos y a través de mecanismos accesibles para toda la ciudadanía."
-          },
-          {
-            "petition_q": "DEBER DE RENDICIÓN DE CUENTAS",
-            "petition_a": "Consideramos que se debe consagrar al más alto nivel la obligación de las autoridades y representantes de rendir cuentas ante la ciudadanía del desempeño en sus cargos y de hacerse responsable de las faltas o infracciones que puedan haber cometido en el ejercicio de sus funciones."
+            "petition_a": "La nueva Constitución debe ser fiel al principio de los Derechos Humanos, por lo tanto,  la nueva Carta Magna debe erigirse sobre todos los derechos que la humanidad ha acordado hasta ahora y que se encuentren también aprobados por nuestro país. Esos derechos según la propia Doctrina de Derechos Humanos son indivisibles, interdependientes e integrales. Por ello, resulta inconveniente e impertinente seleccionar o priorizar 4 derechos por sobre otros. De otra manera sería posible afirmar, por ejemplo, que el derecho a la vida (derecho civil) no tiene nada que ver con el derecho a la salud (derecho social).Sin lugar a dudas que la consagración y protección de los derechos económicos, sociales y culturales, es la gran deuda de nuestro actual sistema constitucional y una de las materias que debieran incorporarse en un nuevo texto constitucional generado en democracia. De esta manera derechos tan importantes como el derecho a la salud, educación, vivienda adecuada, seguridad social, entre otros, deben tener reconocimiento constitucional. Será la ciudadanía través del juego democrático la que decida qué políticas logan satisfacer mejor estos derechos. "
           }
         ]
       },
@@ -315,16 +307,16 @@
         "question": "¿Cuáles son las instituciones del Estado más importantes para el debate constitucional y qué características deberían tener?",
         "petitions": [
           {
-            "petition_q": "SERVICIO ELECTORAL",
-            "petition_a": "Un servicio público, autónomo y técnico encargado de velar por el cumplimiento de las reglas de la democracia y de sancionar, luego de un debido proceso, a los responsables por las infracciones que al respecto cometan."
+            "petition_q": "TRES PODERES CLÁSICOS DEL ESTADO",
+            "petition_a": "El Ejecutivo, Legislativo y Judicial debieran contemplarse como autónomos, colaboradores y equilibrados entre sí dentro del marco del Estado de Derecho y el imperio de la ley legítimamente generada."
           },
           {
-            "petition_q": "CONSEJO PARA LA TRANSPARENCIA",
-            "petition_a": "Un servicio público, autónomo y técnico encargado de velar por el cumplimiento de las reglas de transparencia y acceso da la información y de sancionar, luego de un debido proceso, a los responsables por las infracciones que al respecto cometan."
+            "petition_q": "MECANISMOS DE PARTICIPACIÓN CIUDADANA",
+            "petition_a": "Que incluya una veeduría ciudadana con capacidad de recepcionar los reclamos ciudadanos ante el incumplimiento de los estándares de participación que sean definidos, canalizándolos y gestionándolos en conjunto al Poder Ejecutivo las soluciones necesarias."
           },
           {
-            "petition_q": "INICIATIVA POPULAR DE LEY",
-            "petition_a": "Creemos que una nueva constitución es una oportunidad importante para abrir nuevos canales de participación ciudadana en los más altos niveles de la actividad democrática, para ello consideramos que sería adecuado incorporar la posibilidad de que sea la ciudadanía la que proponga asuntos a regular al Congreso respecto de las cuales este último tenga la obligación de pronunciarse cuando se reúnan ciertos requisitos mínimos."
+            "petition_q": "OMBUDSMAN O DEFENSOR CIUDADANO",
+            "petition_a": "Instancia independiente que pueda representar a los ciudadanos en caso de irrespeto de sus derechos fundamentales."
           }
         ]
       },
@@ -332,8 +324,8 @@
         "question": "¿Cuál debería ser la instancia encargada de redactar una nueva constitución?",
         "petitions": [
           {
-            "petition_q": "SERVICIO ELECTORAL",
-            "petition_a": "Un servicio público, autónomo y técnico encargado de velar por el cumplimiento de las reglas de la democracia y de sancionar, luego de un debido proceso, a los responsables por las infracciones que al respecto cometan."
+            "petition_q": "PLEBISCITO CIUDADANO",
+            "petition_a": "Plebiscito para que la ciudadanía escoja entre las alternativas anteriores (Congreso, Comisión Mixta o Asamblea Constituyente)."
           }
         ]
       }
