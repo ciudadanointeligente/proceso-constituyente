@@ -1,6 +1,6 @@
 [
   {
-    "ui": 1,
+    "uid": 1,
     "name": "Fundación Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "ui": 2,
+    "uid": 2,
     "name": "organización 02",
     "bg_color": "#DDD",
     "logo": "/img/orgs/logo-am.png",
@@ -115,7 +115,7 @@
     ]
   },
   {
-    "ui": 3,
+    "uid": 3,
     "name": "organización 03",
     "bg_color": "#EEE",
     "logo": "/img/logo-01.png",
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "ui": 4,
+    "uid": 4,
     "name": "Fundación Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
@@ -230,7 +230,7 @@
     ]
   },
   {
-    "ui": 5,
+    "uid": 5,
     "name": "Fundación Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
@@ -298,7 +298,7 @@
     ]
   },
   {
-    "ui": 6,
+    "uid": 6,
     "name": "Fundación Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
@@ -366,7 +366,7 @@
     ]
   },
   {
-    "ui": 7,
+    "uid": 7,
     "name": "Fundación Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
@@ -434,7 +434,7 @@
     ]
   },
   {
-    "ui": 8,
+    "uid": 8,
     "name": "Fundación Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
@@ -502,7 +502,7 @@
     ]
   },
   {
-    "ui": 9,
+    "uid": 9,
     "name": "Fundación Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",

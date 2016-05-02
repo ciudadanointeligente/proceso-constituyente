@@ -15,12 +15,14 @@ layout: default
 
 <section>
   <div class="container">
-    <ul class="list-inline text-center hidden-xs hidden-sd">
+    <ul class="list-inline text-center hidden-xs">
       <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default">[[org.name]]</button></li>
     </ul>
-    <ul class="list-inline text-center hidden-md hidden-lg">
-      <li ng-repeat="org in orgs" ng-click="getOrgInfo(org,true)"><button class="btn btn-default">*[[org.name]]</button></li>
-    </ul>
+
+    <div class="text-center">
+      <select name="organizations" id="organizations" class="visible-xs" ng-model="org" ng-options="org.name for org in orgs track by org.uid" ng-change="getOrgInfo(org,true)">
+    </div>
+    </select>
   </div>
 </section>
 
