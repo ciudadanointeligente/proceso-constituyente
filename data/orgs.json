@@ -139,7 +139,7 @@
     "uid": 3,
     "name": "Comunidad Mujer",
     "bg_color": "#9967A8",
-    "logo": "/img/orgs/logo-comunidad.png",
+    "logo": "/img/orgs/logo-mujer.png",
     "questions": [
       {
         "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
@@ -207,7 +207,7 @@
     "uid": 4,
     "name": "Educación 2020",
     "bg_color": "#58B8A8",
-    "logo": "/img/orgs/logo-fci.png",
+    "logo": "/img/orgs/logo-2020.png",
     "questions": [
       {
         "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
