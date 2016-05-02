@@ -15,8 +15,11 @@ layout: default
 
 <section>
   <div class="container">
-    <ul class="list-inline text-center">
+    <ul class="list-inline text-center hidden-xs hidden-sd">
       <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default">[[org.name]]</button></li>
+    </ul>
+    <ul class="list-inline text-center hidden-md hidden-lg">
+      <li ng-repeat="org in orgs" ng-click="getOrgInfo(org,true)"><button class="btn btn-default">*[[org.name]]</button></li>
     </ul>
   </div>
 </section>

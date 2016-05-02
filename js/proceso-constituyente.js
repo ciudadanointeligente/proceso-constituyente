@@ -17,7 +17,7 @@ app.controller('homepageController', function($scope,$http){
       $scope.messages = { response: false, message: 'no org loaded' }
     });
 
-  $scope.getOrgInfo = function ($org) {
+  $scope.getOrgInfo = function ($org, $mobile=false) {
     $scope.bgColor = $org.bg_color;
     $scope.bgCardColor = $org.bg_card_color;
     $scope.orgInfo = $org.questions;
@@ -25,8 +25,10 @@ app.controller('homepageController', function($scope,$http){
 
     ga('send', 'event', '$org.name', 'click');
 
-    $('html, body').animate({
-      scrollTop: $('#org-details').offset().top
-    }, 0);
+    if($mobile) {
+        $('html, body').animate({
+          scrollTop: $('#org-details').offset().top
+        }, 0);
+    }
   }
 })
