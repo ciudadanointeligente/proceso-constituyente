@@ -21,8 +21,9 @@ layout: default
 
     <div class="selector">
       <select name="organizations" id="organizations" class="visible-xs" ng-model="org" ng-options="org.name for org in orgs track by org.uid" ng-change="getOrgInfo(org,true)">
+        <option value="">Selecciona una organización</option>
+      </select>
     </div>
-    </select>
   </div>
 </section>
 
