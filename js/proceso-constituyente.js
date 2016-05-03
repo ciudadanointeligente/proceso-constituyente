@@ -18,7 +18,7 @@ app.controller('homepageController', function($scope,$http){
       $scope.messages = { response: false, message: 'no org loaded' }
     });
 
-  $scope.getOrgInfo = function ($org, $mobile=false) {
+  $scope.getOrgInfo = function ($org, $mobile) {
     $scope.bgColor = $org.bg_color;
     $scope.bgCardColor = $org.bg_card_color;
     $scope.orgInfo = $org.questions;
