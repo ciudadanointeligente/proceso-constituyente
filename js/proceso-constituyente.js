@@ -24,7 +24,7 @@ app.controller('homepageController', function($scope,$http){
     $scope.orgInfo = $org.questions;
     $scope.orgLogo = $org.logo;
 
-    ga('send', 'event', '$org.name', 'click');
+    ga('send', 'event', $org.name, 'click');
 
     if($mobile) {
         $('html, body').animate({
