@@ -5,11 +5,19 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
+
   <meta property="og:title" content="{{ site.title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://{{ site.basedomain }}" />
   <meta property="og:image" content="http://{{ site.basedomain }}/img/og-img.png" />
   <meta property="og:description" content="{{ site.description }}" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ciudadanoi">
+  <meta name="twitter:creator" content="@ciudadanoi">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="http://{{ site.basedomain }}/img/og-img.png">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
