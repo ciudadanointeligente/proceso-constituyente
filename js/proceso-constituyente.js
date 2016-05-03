@@ -8,6 +8,7 @@ app.controller('homepageController', function($scope,$http){
   $scope.orgInfo = [];
   $scope.bgColor = '#FFF';
   $scope.bgCardColor = "#FFF";
+  $scope.orgLogo = '';
 
   $http.get('/data/orgs.json')
     .success(function (data) {
