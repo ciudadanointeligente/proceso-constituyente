@@ -77,7 +77,7 @@
   },
   {
     "uid": 2,
-    "name": "Fundación Ciudadano Inteligente",
+    "name": "Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
     "questions": [
@@ -341,7 +341,7 @@
   },
   {
     "uid": 6,
-    "name": "Fundación Iguales",
+    "name": "Iguales",
     "bg_color": "#D95F51",
     "logo": "/img/orgs/logo-iguales.png",
     "questions": [
@@ -461,7 +461,7 @@
   },
   {
     "uid": 8,
-    "name": "Fundación Humanas",
+    "name": "Humanas",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-humanas.png",
     "questions": [
@@ -533,7 +533,7 @@
   },
   {
     "uid": 9,
-    "name": "Fundación Opción",
+    "name": "Opción",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-opcion.png",
     "questions": [
