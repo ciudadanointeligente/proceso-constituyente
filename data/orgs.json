@@ -255,16 +255,16 @@
         "question": "¿Cuáles son las instituciones del Estado más importantes para el debate constitucional y qué características deberían tener?",
         "petitions": [
           {
-            "petition_q": "",
-            "petition_a": ""
+            "petition_q": "MINISTERIO DE EDUCACIÓN",
+            "petition_a": "Como garante de la educación pública, gratuita e inclusiva en todo el sistema, distribuido en todo el país a través de servicio locales que permitan una atención oportuna para toda la comunidad educativa."
           },
           {
-            "petition_q": "",
-            "petition_a": ""
+            "petition_q": "SISTEMA PROTECCIÓN A LA INFANCIA",
+            "petition_a": "Un sistema integral de protección a la infancia que permita integrar a todos los niños y niñas del país sin distinción socioeconómica, étnica o geográfica, eliminando así una política adultocéntrica impuesta y poco inclusiva."
           },
           {
-            "petition_q": "",
-            "petition_a": ""
+            "petition_q": "CENTROS DE ESTUDIANTES Y FEDERACIONES",
+            "petition_a": "Centros de Estudiantes y Federaciones estudiantiles garantizada constitucionalmente en todos los establecimientos educativos, centros de formación técnica, institutos profesionales y universidades del país, electas democráticamente siendo garantes de la participación y debate dentro de cada casa de estudios."
           }
         ]
       },
