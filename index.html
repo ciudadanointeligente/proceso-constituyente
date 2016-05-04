@@ -30,9 +30,7 @@ layout: default
 <section id="org-details" style="background-color: [[bgColor]]">
   <div class="container">
     <div id="petitions" class="row">
-    <div class="col-md-12 text-center">
-      <img src="[[orgLogo]]" class="logo">
-    </div>
+      <div class="col-md-12 text-center" ng-bind-html="orgLogo"></div>
       <div class="col-sm-6 col-md-3" ng-repeat="p in orgInfo">
         <div class="panel panel-default">
             <div class="panel-heading">

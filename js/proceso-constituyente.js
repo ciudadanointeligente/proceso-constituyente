@@ -1,4 +1,4 @@
-var app = angular.module('webApp', [], function($interpolateProvider) {
+var app = angular.module('webApp', ['ngSanitize'], function($interpolateProvider) {
   $interpolateProvider.startSymbol('[[');
   $interpolateProvider.endSymbol(']]');
 });
@@ -22,7 +22,7 @@ app.controller('homepageController', function($scope,$http){
     $scope.bgColor = $org.bg_color;
     $scope.bgCardColor = $org.bg_card_color;
     $scope.orgInfo = $org.questions;
-    $scope.orgLogo = $org.logo;
+    $scope.orgLogo = '<img src="'+$org.logo+'" class="logo">';
 
     ga('send', 'event', $org.name, 'click');
 
