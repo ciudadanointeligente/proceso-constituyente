@@ -25,6 +25,8 @@ app.controller('homepageController', function($scope,$http){
     $scope.orgLogo = '<img src="'+$org.logo+'" class="logo">';
 
     ga('send', 'event', $org.name, 'click');
+    var time = Math.round(performance.now());
+    ga('send', 'timing', $org.name, 'load', time);
 
     if($mobile) {
         $('html, body').animate({
