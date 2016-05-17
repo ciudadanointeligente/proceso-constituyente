@@ -184,6 +184,43 @@ img.logo{
   }
 }
 
+/*CALENDARIOS*/
+#calendario{
+  margin: 110px 0 40px 0;
+  min-height: 600px;
+  h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  p{
+    font-family: 'Lato', sans-serif;
+    color: $grey-darker;
+    font-size: 15px;
+  }
+  a{
+    color: $orange;
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: $blue;
+  }
+}
+
+.btn.btn-default{
+  background-color: $stone-dark;
+  border: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.btn.btn-default:hover{
+  background-color: $stone;
+  color: white;
+}
 
 
 /*FOOTER*/
