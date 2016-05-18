@@ -77,6 +77,70 @@
   },
   {
     "uid": 2,
+    "name": "Ciudad Emergente",
+    "bg_color": "F89869",
+    "logo": "/img/orgs/logo-ciudademergente.png",
+    "questions": [
+      {
+        "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
+        "petitions": [
+          {
+            "petition_q": "COLABORACIÓN",
+            "petition_a": "Creemos que en Chile nos han enseñado muy bien a competir unos con otros, pero poco a colaborar. Uno de los principios más importantes que creemos debería inspirar una nueva Constitución es la idea de colaborar unos con otros, pensando en que a partir de la colaboración y la construcción colectiva de nuestra sociedad, es posible alcanzar valores mayores tales como una sociedad más justa, sustentable e inclusiva."
+          },
+          {
+            "petition_q": "PARTICIPACIÓN",
+            "petition_a": "Entendemos la participación como el pilar de una sociedad más justa, más humana y mejor. Nos parece fundamental promover instancias y recursos a nivel país para que las decisiones no se tomen en círculos minoritarios, sino que nazcan de las necesidades y capacidades de las personas. Pensamos que la participación es un valor que debe inspirar la nueva Constitución, dejando de lado la figura de ciudadanos que participan solo como actores pasivos receptores de beneficios, por una participación que habilite y empodere a las personas como agentes activos de cambio social, capaces de superar las barreras que les impiden llevar adelante el tipo de vida que tiene razones para valorar."
+          },
+          {
+            "petition_q": "TRANSPARENCIA",
+            "petition_a": "Hoy en día la vemos como un valor escaso, una excepción a la regla. Es necesario impulsar políticas que velen por la divulgación de información pública y el fácil acceso de los ciudadanos a ésta, promoviendo todas aquellas herramientas que permitan el acercamiento y rendición de cuentas del Estado a la ciudadanía. "
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son los derechos, deberes y/o responsabilidades más importantes que el debate constitucional debe considerar?",
+        "petitions": [
+          {
+            "petition_q": "DERECHO A EDUCACIÓN CÍVICA",
+            "petition_a": "Creemos fundamental fomentar la educación cívica con el objetivo de fortalecer la vida en sociedad y en ciudad, aprendiendo a convivir, reconociendo y respetando códigos de convivencia cívica."
+          },
+          {
+            "petition_q": "DERECHO A UN MEDIOAMBIENTE LIBRE DE CONTAMINACIÓN",
+            "petition_a": "Creemos relevante poner sobre la mesa el debate sobre cómo hacer efectivo el derecho a vivir en un medioambiente libre de contaminación, fomentando políticas públicas que regulen en favor de un medioambiente libre de contaminación,  promoviendo una mejor calidad de vida para todas las personas. "
+          },
+          {
+            "petition_q": "DERECHO A CIUDADES SALUDABLES",
+            "petition_a": "Hoy el mundo es urbano. En 2050 el 70% de la población será urbana. Chile actualmente es 90% urbano en su población y la calidad de vida de las personas pasa en gran medida por qué tan saludable son las ciudades en que vivimos. Tener el derecho a vivir en ciudades saludables, que fomenten una convivencia a escala humana resulta fundamental para alcanzar una mejor calidad de vida."
+          },
+          {
+            "petition_q": "OBLIGACIÓN A CIUDAR Y PROTEGER EL MEDIOAMBIENTE",
+            "petition_a": "La importancia de tomar consciencia de que no somos una sola especie habitando el territorio, sino de que estamos rodeados de muchas otras y debemos respetarlas y convivir en armonía con ellas. "
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son las instituciones del Estado más importantes para el debate constitucional y qué características deberían tener?",
+        "petitions": [
+          {
+            "petition_q": "MINISTERIO DE CIUDADES",
+            "petition_a": "Proponemos la creación de un Ministerio de la Ciudades como órgano que permita generar una visión consensuada de qué tipo de ciudades queremos, reemplazando la disgregación actual que se produce al estar repartida entre varios ministerios/organismos."
+          }
+        ]
+      },
+      {
+        "question": "¿Cuál debería ser la instancia encargada de redactar una nueva constitución?",
+        "petitions": [
+          {
+            "petition_q": "PLEBISCITO CIUDADANO",
+            "petition_a": "Plebiscito para que la ciudadanía escoja entre las alternativas anteriores (Congreso, Comisión Mixta o Asamblea Constituyente)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uid": 3,
     "name": "Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
@@ -144,7 +208,7 @@
     ]
   },
   {
-    "uid": 3,
+    "uid": 4,
     "name": "ComunidadMujer",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-mujer.png",
@@ -212,7 +276,7 @@
     ]
   },
   {
-    "uid": 4,
+    "uid": 5,
     "name": "Educación 2020",
     "bg_color": "#58B8A8",
     "logo": "/img/orgs/logo-2020.png",
@@ -280,7 +344,7 @@
     ]
   },
   {
-    "uid": 5,
+    "uid": 6,
     "name": "Fundación Superación de la Pobreza",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fusupo.png",
@@ -340,7 +404,7 @@
     ]
   },
   {
-    "uid": 6,
+    "uid": 7,
     "name": "Iguales",
     "bg_color": "#D95F51",
     "logo": "/img/orgs/logo-iguales.png",
@@ -400,7 +464,7 @@
     ]
   },
   {
-    "uid": 7,
+    "uid": 8,
     "name": "Hogar de Cristo",
     "bg_color": "#58B8A8",
     "logo": "/img/orgs/logo-hogar.png",
@@ -460,7 +524,7 @@
     ]
   },
   {
-    "uid": 8,
+    "uid": 9,
     "name": "Humanas",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-humanas.png",
@@ -532,7 +596,7 @@
     ]
   },
   {
-    "uid": 9,
+    "uid": 10,
     "name": "Opción",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-opcion.png",
