@@ -107,14 +107,14 @@ li > button.btn.btn-default{
   background-color: $stone;
   color: #FFF;
   border: none;
-  margin-top: 10px;
+  margin-top: -10px;
+  border-radius: 20px;
 }
 
 li > button.btn.btn-default:hover{
   background-color: $green;
   color: #FFF;
   border: none;
-  margin-top: 10px;
 }
 
 /*PETITIONS*/
@@ -215,10 +215,11 @@ img.logo{
   border: none;
   color: white;
   margin-bottom: 20px;
+  border-radius: 40px;
 }
 
 .btn.btn-default:hover{
-  background-color: $stone;
+  background-color: $green;
   color: white;
 }
 
