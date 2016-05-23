@@ -403,8 +403,80 @@
       }
     ]
   },
-  {
+    {
     "uid": 7,
+    "name": "Girasoles",
+    "bg_color": "#D95F51",
+    "logo": "/img/orgs/logo-america.png",
+    "questions": [
+      {
+        "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
+        "petitions": [
+          {
+            "petition_q": "SOBERANIA",
+            "petition_a": "De qué somos soberanos? Definamos este tema. Podemos ser soberanos de nuestros impuestos y por ejemplo poder decidir en qué proyectos se gastan.  Por ejemplo: que CHILE compre en CHILE. Con nuestros impuestos que se compre a industrias nacionales que dan trabajo a chilenos, que pagan sus impuestos en Chile, que usan materia prima nacional y mejor aun si son regionales."
+          },
+          {
+            "petition_q": "INTEGRIDAD",
+            "petition_a": "Integridad de las instituciones del Estado, que el servicio que estas prestan sea armónico, eficiente y se termine con la dualidad de cargos y funciones."
+          },
+          {
+            "petition_q": "PROBIDAD",
+            "petition_a": "Basta del doble estándar nacional y en todos ámbitos, desde el empresarial al político y también al personal. Dejemos de evadir el IVA, que entonces se baje el IVA y todos ganemos haciendo un CHILE mejor. Quien evade, nos aumenta el IVA."
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son los derechos, deberes y/o responsabilidades más importantes que el debate constitucional debe considerar?",
+        "petitions": [
+          {
+            "petition_q": "DERECHO A LA LIBERTAD DE EXPRESION",
+            "petition_a": "No solo libertad para expresarse, si no que los medios den a conocer las distintas posturas sin discriminación, hoy es más importante lo que dice Chino Ríos que lo que dice un ciudadano común?"
+          },
+          {
+            "petition_q": "DEBER DE RESPETO NATURALEZA Y MEDIO AMBIENTE",
+            "petition_a": "Dejemos el mundo igual o mejor de lo que está. Eso debe prevalecer que por razones de emisiones contaminantes. No solo importa el CO2, la armonía de la naturaleza es milenaria y el respeto es fundamental."
+          },
+          {
+            "petition_q": "DERECHO A LA IGUALDAD",
+            "petition_a": "De oportunidades, ser libre para emprender, con igualdad de oportunidades es justicia en sus fundamentos."
+          },
+          {
+            "petition_q": "DERECHO A SUFRAGIO",
+            "petition_a": "Para mayores de 17 años, y que tenga sus impuestos al día, y que declare sus impuestos en Chile."
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son las instituciones del Estado más importantes para el debate constitucional y qué características deberían tener?",
+        "petitions": [
+          {
+            "petition_q": "GOBIERNO REGIONAL",
+            "petition_a": "Que sea elegido localmente y los cargos sean ocupados por residentes VERDADEROS. Esta es una medida que está correlacionada con el medioambiente: significa dar trabajo a vecinos, y que no se deben desplazar, disminuye las emisiones, aumenta la productividad."
+          },
+          {
+            "petition_q": "DEFENSOR DEL PUEBLO CIUDADANO",
+            "petition_a": "Y que sea realizado por una entidad independiente del Estado."
+          },
+          {
+            "petition_q": "PLEBISCITOS, REFERENDOS Y CONSULTAS",
+            "petition_a": "Que el estado promueva la participación y que los llamados sean realizados por instituciones independientes del estado."
+          }
+        ]
+      },
+      {
+        "question": "¿Cuál debería ser la instancia encargada de redactar una nueva constitución?",
+        "petitions": [
+          {
+            "petition_q": "ASAMBLEA CONSTITUYENTE",
+            "petition_a": "Asamblea Constituyente compuesta por personas escogidas para ese sólo propósito."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uid": 8,
     "name": "Iguales",
     "bg_color": "#D95F51",
     "logo": "/img/orgs/logo-iguales.png",
@@ -464,7 +536,7 @@
     ]
   },
   {
-    "uid": 8,
+    "uid": 9,
     "name": "Hogar de Cristo",
     "bg_color": "#58B8A8",
     "logo": "/img/orgs/logo-hogar.png",
@@ -524,7 +596,7 @@
     ]
   },
   {
-    "uid": 9,
+    "uid": 10,
     "name": "Humanas",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-humanas.png",
@@ -596,7 +668,7 @@
     ]
   },
   {
-    "uid": 10,
+    "uid": 11,
     "name": "Opción",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-opcion.png",
@@ -642,6 +714,74 @@
           {
             "petition_q": "ASAMBLEA CONSTITUYENTE",
             "petition_a": "Asamblea constituyente especialmente escogida para el efecto."
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "uid": 12,
+    "name": "Socialab",
+    "bg_color": "#D95F51",
+    "logo": "/img/orgs/logo-america.png",
+    "questions": [
+      {
+        "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
+        "petitions": [
+          {
+            "petition_q": "COLABORACIÓN",
+            "petition_a": "Creemos en un nuevo modelo de desarrollo basado en la empatía, la colaboración y la creatividad del ser humano para resolver los grandes problemas de la humanidad. Para ello es necesario que la Constitución impulse la colaboración como principio fundamental para un nuevo modelo de desarrollo social."
+          },
+          {
+            "petition_q": "VALOR EN LO HUMANO",
+            "petition_a": "Nuestra institucionalidad política debe recuperar el valor en lo humano para cambiar el modelo económico actual e impulsar el desarrollo sistemático de una o más dimensiones sociales de la ciudadanía."
+          },
+          {
+            "petition_q": "DIVERSIDAD",
+            "petition_a": "Entendemos la diversidad como riqueza, por lo que la Constitución debe inspirarse en ella y velar por la inclusión de todos y todas. "
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son los derechos, deberes y/o responsabilidades más importantes que el debate constitucional debe considerar?",
+        "petitions": [
+          {
+            "petition_q": "DERECHO A LA DIGNIDAD HUMANA",
+            "petition_a": "Porque la desigualdad no puede medirse solamente en términos de ingresos, sino que existen distintas dimensiones en la vida de las personas que la Constitución debe velar para que se tengan presente."
+          },
+          {
+            "petition_q": "DERECHO A PROPONER",
+            "petition_a": "Se debe garantizar el derecho a proponer ideas para responder a los grandes problemas de la sociedad. Esto implica generar espacios, apoyar y colaborar."
+          },
+          {
+            "petition_q": "DEBER DE HACERSE CARGO DE SUS PROPUESTAS",
+            "petition_a": "Se debe garantizar la responsabilidad de tomar acción y responder frente a las propuestas."
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son las instituciones del Estado más importantes para el debate constitucional y qué características deberían tener?",
+        "petitions": [
+          {
+            "petition_q": "CORFO",
+            "petition_a": "Para mejorar repartición de los fondos que el estado provee para velar por la calidad de vida de las personas y el fomento del país."
+          },
+          {
+            "petition_q": "MINISTERIO DE DESARROLLO SOCIAL",
+            "petition_a": "Para velar por las políticas públicas que velen por la dignidad de las personas y el bienestar social."
+          },
+          {
+            "petition_q": "MINISTERIO DE CIENCIA Y TECNOLOGÍA",
+            "petition_a": "Para generar políticas que permitan el desarrollo de conocimiento y tecnología que mejore la calidad de vida de las personas."
+          }
+        ]
+      },
+      {
+        "question": "¿Cuál debería ser la instancia encargada de redactar una nueva constitución?",
+        "petitions": [
+          {
+            "petition_q": "ASAMBLEA CONSTITUYENTE",
+            "petition_a": "Asamblea Constituyente compuesta por personas escogidas para ese sólo propósito."
           }
         ]
       }
