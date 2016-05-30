@@ -9,7 +9,7 @@ layout: default
         <div class="row">
           <div class="col-md-4">
             <img src="{{ site.baseurl }}/img/1-participacion.svg">
-            <h3>Participemos del Proceso Constituyente. Entre más seamos, tendremos más poder para fiscalizar.</h3>
+            <h4>Participemos del Proceso Constituyente. Entre más seamos, tendremos más poder para fiscalizar.</h4>
           </div>
           <div class="col-md-4">
             <img src="{{ site.baseurl }}/img/2-basesciudadanas.svg">
@@ -33,29 +33,44 @@ layout: default
 
 <section id="participa">
   <div class="container">
-    <h2 class="blanco text-center">¿Cómo participar?</h2>
-    <h3 class="blanco text-width text-center">Pueden participar personas que tengan desde 14 años, sean chilenas o chilenos que vivan dentro o fuera del territorio nacional, o sean extranjeras o extranjeros residentes.</h3>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="panel bg-azul">
-          <div class="panel-body"><h3>Organiza tu encuentro</h3>
-          <p>Los Encuentros Locales pueden ser inscritos con 5 días de anticipación hasta el 18 de junio, con un mínimo de 10 y un máximo de 30 participantes. Te invitamos a inscribirlo abierto. Inscribe tu encuentro en <a href="www.unaconstitucionparachile.cl">unaconstitucionparachile.cl</a></p>
-          </div>
-        </div>
+    <h2 class="text-center">¿Cómo participar?</h2>
+    <h3 class="text-width text-center">Pueden participar personas que tengan desde 14 años, sean chilenas o chilenos que vivan dentro o fuera del territorio nacional, o sean extranjeras o extranjeros residentes.</h3>
+<div class="tabs">
+    <!-- Radio button and lable for #tab-content1 -->
+    <input type="radio" name="tabs" id="tab1" checked >
+    <label for="tab1">
+        <span><h3>Organiza tu encuentro</h3></span>
+    </label>
+    <!-- Radio button and lable for #tab-content2 -->
+    <input type="radio" name="tabs" id="tab2">
+    <label for="tab2">
+        <span><h3>Asiste a un encuentro</h3></span>
+    </label>
+    <!-- Radio button and lable for #tab-content3 -->
+    <input type="radio" name="tabs" id="tab3">
+    <label for="tab3">
+        <span><h3>Participa individualmente</h3></span>
+    </label>
+    <div id="tab-content1" class="tab-content">
+      <div class="row">
+        <div class="col-md-8">Los Encuentros Locales pueden ser inscritos con 5 días de anticipación hasta el 18 de junio, con un mínimo de 10 y un máximo de 30 participantes. Te invitamos a inscribirlo abierto. Inscribe tu encuentro en <a href="www.unaconstitucionparachile.cl">unaconstitucionparachile.cl</a></div>
+        <div class="col-md-4"><a href="https://docs.google.com/forms/d/1er5s8PWT6Cz5CWxt3Zqc7-Fn8Zh4XhPx2lN2MqVfkS8/viewform" role="button" target="_blank"><button class="btn btn-default">Publica tu encuentro</button></a></div>
       </div>
-      <div class="col-md-9">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Calendario de encuentros</h3>
-            <div class="text-right"><a href="https://docs.google.com/forms/d/1er5s8PWT6Cz5CWxt3Zqc7-Fn8Zh4XhPx2lN2MqVfkS8/viewform" role="button" target="_blank"><button class="btn btn-default">Publica tu encuentro</button></a></div>
-          </div>
-          <div class="panel-body">
-            {% include calendario-de-encuentros.html %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        {% include calendario-de-encuentros.html %}
+    </div> <!-- #tab-content1 -->
+    <div id="tab-content2" class="tab-content">
+        <h3><!-- Tab title here --></h3>
+        {% include calendario-de-encuentros.html %}
+    </div> <!-- #tab-content2 -->
+    <div id="tab-content3" class="tab-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div> <!-- #tab-content3 -->
+</div>
 </section>
 
 <section id="mi-encuentro">
