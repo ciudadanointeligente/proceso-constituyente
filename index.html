@@ -5,25 +5,88 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <img src="/img/welcome.png" class="img-responsive" alt="Cabildeas">
-        <h2>Ideas desde la sociedad civil para la nueva Constitución</h2>
-        <p class="bajada">Selecciona cada organización para conocer sus opiniones respecto a las temáticas a tocar en los encuentros locales y en la consulta individual. Si quieres conocer cómo participar de estos y otros espacios, recuerda informarte en <a href="//www.unaconstitucionparachile.cl" onClick="ga('send', 'event', 'link-main-header', 'click');">www.unaconstitucionparachile.cl</a></p>
-        <a href="https://docs.google.com/forms/d/1DmZcr8rBD4uvUNFR5YwkeLQTrqHe7zj2Qzdf8E1nuLI/formResponse" role="button" class="btn btn-default" target="_blank" onClick="ga('send', 'event', 'responder-formulario', 'click');">Suma a tu ONG</a>
+        <h1 class="text-width">De nosotros depende que construyamos la Constitución que queremos</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="{{ site.baseurl }}/img/1-participacion.svg">
+            <h3>Participemos del Proceso Constituyente. Entre más seamos, tendremos más poder para fiscalizar.</h3>
+          </div>
+          <div class="col-md-4">
+            <img src="{{ site.baseurl }}/img/2-basesciudadanas.svg">
+            <h4>Nuestra participación nos hará parte de la conformación de las Bases Ciudadanas para la Nueva Constitución, referente para la discusión constitucional.</h4>
+          </div>
+          <div class="col-md-4">
+            <img src="{{ site.baseurl }}/img/3-fiscalizacion.svg">
+            <h4>Participemos y fiscalicemos este proceso hasta el final. De nosotros depende que construyamos la Constitución que queremos.</h4>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<section>
+<section id="video">
   <div class="container">
-    <ul class="list-inline text-center hidden-xs">
-      <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default pull-right">[[org.name]]</button></li>
-    </ul>
+    <iframe src="https://player.vimeo.com/video/168050825" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</section>
 
-    <div class="selector">
-      <select name="organizations" id="organizations" class="visible-xs" ng-model="org" ng-options="org.name for org in orgs track by org.uid" ng-change="getOrgInfo(org,true)">
-        <option value="">Selecciona una organización</option>
-      </select>
+<section id="participa">
+  <div class="container">
+    <h2 class="blanco text-center">¿Cómo participar?</h2>
+    <h3 class="blanco text-width text-center">Pueden participar personas que tengan desde 14 años, sean chilenas o chilenos que vivan dentro o fuera del territorio nacional, o sean extranjeras o extranjeros residentes.</h3>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="panel bg-azul">
+          <div class="panel-body"><h3>Organiza tu encuentro</h3>
+          <p>Los Encuentros Locales pueden ser inscritos con 5 días de anticipación hasta el 18 de junio, con un mínimo de 10 y un máximo de 30 participantes. Te invitamos a inscribirlo abierto. Inscribe tu encuentro en <a href="www.unaconstitucionparachile.cl">unaconstitucionparachile.cl</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Calendario de encuentros</h3>
+            <div class="text-right"><a href="https://docs.google.com/forms/d/1er5s8PWT6Cz5CWxt3Zqc7-Fn8Zh4XhPx2lN2MqVfkS8/viewform" role="button" target="_blank"><button class="btn btn-default">Publica tu encuentro</button></a></div>
+          </div>
+          <div class="panel-body">
+            {% include calendario-de-encuentros.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="mi-encuentro">
+  <div class="container">
+    <h2 class="blanco text-center">Viene mi encuentro local</h2>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="panel bg-rojo">
+          <div class="panel-body"><h3>Tips y metodología</h3>
+            <h4>Revisa aquí los consejos y dinámica metodológica de Fundación Ciudadano Inteligente comparte  para llevar a cabo un Encuentro Local.</h4>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-9">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">IDEAS DESDE LA SOCIEDAD CIVIL PARA LA NUEVA CONSTITUCIÓN</h3>
+        </div>
+        <div class="panel-body">
+          <ul class="list-inline text-center hidden-xs">
+            <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default pull-right">[[org.name]]</button></li>
+          </ul>
+
+          <div class="selector">
+            <select name="organizations" id="organizations" class="visible-xs" ng-model="org" ng-options="org.name for org in orgs track by org.uid" ng-change="getOrgInfo(org,true)">
+              <option value="">Selecciona una organización</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </div>
 </section>

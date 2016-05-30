@@ -7,7 +7,55 @@ body {
   background-color: $grey-white;
 }
 
+.text-width {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
+h1 {
+  color: $blue;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  color: $grey;
+}
+
+.blanco {
+  color: white;
+}
+
+.bg-azul {
+  background-color: $blue;
+  color: white;
+}
+
+.bg-rojo {
+  background-color: $red;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
 
 /*HEADER*/
 header > .navbar-default {
@@ -58,33 +106,25 @@ header > .navbar-default {
   color: $blue;
 }
 
-#main-header {
-  background: url('/img/personas.png') 50%/auto no-repeat;
-  background-position: center;
-  min-height: 400px;
-  img {
-    margin: 0 auto;
-  }
-  a.btn.btn-default{
-    color: white;
-  }
-}
-
 .patron{
   background-image: url('/img/color-nav.png');
   height: 8px;
+}
+
+#main-header h1 {
+  margin-bottom: 70px;
+}
+
+/*PARTICIPA*/
+
+section#participa {
+  background-color: $grey-lighter;
 }
 
 /*WELCOME*/
 #main-header{
   text-align: center;
   padding: 135px 0 50px 0;
-  h2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    color: $grey-darker;
-    font-weight: 700;
-  }
   p.bajada{
     font-family: 'Lato', sans-serif;
     font-size: 20px;
