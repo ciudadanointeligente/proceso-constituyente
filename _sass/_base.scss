@@ -36,7 +36,15 @@ h4 {
   font-family: 'Raleway', sans-serif;
   font-size: 21px;
   font-weight: 200;
-  color: $grey;
+  margin-top: 0;
+}
+
+hr {
+    background: url(../img/linea-colores.svg) repeat-x;
+    height: 4px;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .blanco {
@@ -57,9 +65,17 @@ h4 {
   text-align: center;
 }
 
+h2.text-center {
+    margin-top: 110px;
+}
+
+.bajada {
+    margin-bottom: 60px;
+}
+
 /*HEADER*/
 header > .navbar-default {
-  height: 85px;
+  height: 75px;
   color: #FFF;
   font-family: 'Raleway', sans-serif;
   background-color: $stone-dark;
@@ -69,15 +85,20 @@ header > .navbar-default {
   .navbar-brand, .navbar-brand:hover {
     color: #FFF;
   }
+
   .navbar-nav > li.active > a, .navbar-nav > li.active > a:hover {
     color: #FFF;
     background-color: #2C2C6F;
+    padding: 15px 8px;
   }
-  .navbar-nav > li > a, .navbar-nav > li > a:hover {
+  .navbar-nav > li > a {
+    color: #80B9C4;
+  }
+.navbar-nav > li > a:hover {
     color: #FFF;
   }
   .navbar-right{
-    margin-top: 15px;
+    margin-top: 12px;
   }
   .navbar-toggle{
     margin-top: -60px;
@@ -101,9 +122,16 @@ header > .navbar-default {
   }
 }
 
+header > .navbar-default .navbar-nav > li.redes > a {
+    padding: 15px 0px;
+}
+
 .fa-stack{
   margin-top: -9px;
-  color: $blue;
+}
+
+.fa-inverse {
+    color: $stone-dark;
 }
 
 .patron{
@@ -115,6 +143,12 @@ header > .navbar-default {
   margin-bottom: 70px;
 }
 
+/*VIDEO*/
+
+section#video {
+    background: #4DB8A6;
+}
+
 /*PARTICIPA*/
 
 .tabs {
@@ -122,7 +156,6 @@ header > .navbar-default {
     list-style: none;
     padding: 0;
     margin: 75px auto;
-    border-bottom: 4px solid #ccc;
 }
 .tabs:after {
     content: '';
@@ -136,7 +169,6 @@ header > .navbar-default {
     display: block;
     float: left;
     width: 32.3333%;
-    color: #FFF;
     font-size: 30px;
     font-weight: normal;
     text-decoration: none;
@@ -144,11 +176,87 @@ header > .navbar-default {
     cursor: pointer;
     transition: all 0.5s;
     padding: 10px 0px 20px;
-    background: #F08451;
     margin-right: 1%;
     border-radius: 30px;
     margin-bottom: 0;
 }
+
+.tabs label#organiza {
+  border: 4px solid $purple;
+  color: $purple;
+}
+
+.tabs label#asiste {
+  border: 4px solid $blue;
+  color: $blue;
+}
+
+.tabs label#individual {
+  border: 4px solid $green;
+}
+
+.tabs label#individual a{
+  color: $green;
+}
+
+.tabs label#organiza:hover {
+  background: $purple;
+    color: white;
+}
+
+.tabs label#asiste:hover {
+  background: $blue;
+    color: white;
+}
+
+.tabs label#individual:hover {
+  background: $green;
+}
+
+.tabs label#individual a:hover {
+  color: white;
+}
+
+.tabs [id^="tab"]:checked + label#organiza {
+    background: $purple;
+    color: white;
+}
+
+.tabs [id^="tab"]:checked + label#asiste {
+    background: $blue;
+    color: white;
+}
+
+.tabs [id^="tab"]:checked + label#organiza:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(236, 105, 90, 0);
+  border-top-color: $purple;
+  border-width: 20px;
+  margin-left: -20px;
+}
+
+.tabs [id^="tab"]:checked + label#asiste:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(236, 105, 90, 0);
+  border-top-color: $blue;
+  border-width: 20px;
+  margin-left: -20px;
+}
+
 .tabs label span {
     display: none;
 }
@@ -188,23 +296,7 @@ header > .navbar-default {
 }
 
 .tabs [id^="tab"]:checked + label {
-    background: #EC695A;
   position: relative;
-}
-
-.tabs [id^="tab"]:checked + label:after {
-  top: 100%;
-  left: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(236, 105, 90, 0);
-  border-top-color: #EC695A;
-  border-width: 20px;
-  margin-left: -20px;
 }
 
 #tab1:checked ~ #tab-content1,
@@ -224,6 +316,13 @@ header > .navbar-default {
     .tabs {
     margin: 50px auto;
     }
+}
+
+/*MI ENCUENTRO*/
+
+section#miencuentro {
+  background: $purple;
+  color: white;
 }
 
 /*WELCOME*/
@@ -359,16 +458,24 @@ img.logo{
 }
 
 .btn.btn-default{
-  background-color: $orange;
+  background-color: $red;
   border: none;
   color: white;
   margin-bottom: 20px;
   border-radius: 40px;
+  transition: all 0.5s;
 }
 
 .btn.btn-default:hover{
-  background-color: $stone-dark;
+  background-color: $purple;
+}
+
+.btn.btn-default a {
   color: white;
+}
+
+.btn-lg {
+  padding: 20px 20px 10px;
 }
 
 /*CALENDARIOS*/
