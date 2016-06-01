@@ -291,9 +291,6 @@ section#video {
   margin-left: -20px;
 }
 
-.tabs label span {
-    display: none;
-}
 .tabs label i {
     padding: 5px;
     margin-right: 0;
@@ -591,6 +588,27 @@ select#organizations{
 
   .navbar-default .navbar-collapse, .navbar-default .navbar-form{
     border: none;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+    .tabs label {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .margin-top {
+      margin-top: 10px;
   }
 
 }
