@@ -25,6 +25,10 @@ layout: default
   </div>
 </div>
 
+<div class="arrow">
+  <a href="#video"><span data-module-control="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="37" height="16" viewBox="0 0 37 16" class="js-svg replaced-svg"><path d="M19.075 15.43c-.35.366-.926.414-1.334.097L.76 2.08C.326 1.743.248 1.115.587.68.926.242 1.553.163 1.99.502L18.35 13.46 34.864.617c.436-.34 1.064-.26 1.403.175.34.436.26 1.065-.175 1.404L19.075 15.43z" fill="#CCD3DC" fill-rule="evenodd"></path></svg></span></a>
+</div>
+
 <section id="video">
   <div class="container">
     <div class="text-center">
@@ -54,14 +58,13 @@ layout: default
         <a href="https://www.unaconstitucionparachile.cl/registro" target="_blank"><span><h3>Participa individualmente</h3></span></a>
     </label>
     <div id="tab-content1" class="tab-content">
-      <div class="row">
-        <div class="col-md-9"><h4>Los Encuentros Locales pueden ser inscritos con 5 días de anticipación hasta el 18 de junio, con un mínimo de 10 y un máximo de 30 participantes. Te invitamos a inscribirlo abierto. Inscribe tu encuentro en <a href="www.unaconstitucionparachile.cl">unaconstitucionparachile.cl</a></h4></div>
-        <div class="col-md-3 text-right"><a href="https://docs.google.com/forms/d/1er5s8PWT6Cz5CWxt3Zqc7-Fn8Zh4XhPx2lN2MqVfkS8/viewform" role="button" target="_blank"><button class="btn btn-default btn-lg"><h4>Publica tu encuentro</h4></button></a></div>
+      <div class="text-width text-center">
+        <h4>Los Encuentros Locales pueden ser inscritos con 5 días de anticipación hasta el 18 de junio, con un mínimo de 10 y un máximo de 30 participantes. Te invitamos a inscribirlo abierto. Inscribe tu encuentro en <a href="www.unaconstitucionparachile.cl">unaconstitucionparachile.cl</a></h4><h3><a href="https://docs.google.com/forms/d/1er5s8PWT6Cz5CWxt3Zqc7-Fn8Zh4XhPx2lN2MqVfkS8/viewform" class="btn btn-default btn-lg" role="button" target="_blank">Publica tu encuentro</a></h3>
       </div>
         {% include calendario-de-encuentros.html %}
     </div> <!-- #tab-content1 -->
-    <div id="tab-content2" class="tab-content">
-      <h4>Revisa el calendario de encuentros para sumarte al que prefieras:</h4>
+    <div id="tab-content2" class="tab-content text-center">
+      <h4>Revisa el calendario de encuentros para sumarte al que prefieras.</h4>
         <h3><!-- Tab title here --></h3>
         {% include calendario-de-encuentros.html %}
     </div> <!-- #tab-content2 -->
@@ -71,33 +74,29 @@ layout: default
 <section id="miencuentro">
   <div class="container">
     <h2 class="text-center">Viene mi encuentro local</h2>
-    <h4 class="text-width text-center bajada">Revisa la metodología de Ciudadano Inteligente e inspirate con las ideas que han salido desde la sociedad civil para la nueva constitución.</h4>
+    <h4 class="text-width text-center bajada">Revisa nuestra metodología e inspirate con las ideas que han salido desde la sociedad civil para la nueva constitución.</h4>
     <div class="row">
-      <div class="col-md-3">
-        <div class="panel bg-rojo">
-          <div class="panel-body"><h3>Tips y metodología</h3>
-            <h4><a href="{{ site.baseurl }}/dinamica-fci.pdf">Revisa aquí</a> los consejos y dinámica metodológica de Fundación Ciudadano Inteligente comparte  para llevar a cabo un Encuentro Local.</h4>
-          </div>
-        </div>
-      </div>
-    <div class="col-md-9">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">IDEAS DESDE LA SOCIEDAD CIVIL PARA LA NUEVA CONSTITUCIÓN</h3>
-        </div>
-        <div class="panel-body">
-          <ul class="list-inline text-center hidden-xs">
-            <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default pull-right">[[org.name]]</button></li>
-          </ul>
-
-          <div class="selector">
-            <select name="organizations" id="organizations" class="visible-xs" ng-model="org" ng-options="org.name for org in orgs track by org.uid" ng-change="getOrgInfo(org,true)">
-              <option value="">Selecciona una organización</option>
-            </select>
-          </div>
-        </div>
+      <div class="col-md-4"><img src="{{ site.baseurl }}/img/participacion02.svg" width="100%"></div>
+      <div class="col-md-8 text-right margin-top"><h4>Revisa los consejos y dinámica metodológica de Fundación Ciudadano Inteligente comparte  para llevar a cabo un Encuentro Local.</h4>
+        <h3><a href="{{ site.baseurl }}/dinamica-fci.pdf" class="btn btn-default btn-lg">Tips y metodología</a></h3>
       </div>
     </div>
+    <div class="row margin-top">
+        <div class="col-md-8">
+          <h4>Ideas desde la Sociedad Civil para la nueva Constitución</h4>
+           <p class="bajada">Selecciona cada organización para conocer sus opiniones respecto a las temáticas a tocar en los encuentros locales y en la consulta individual. </p>
+          <div>
+            <ul class="list-inline hidden-xs">
+              <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default pull-right">[[org.name]]</button></li>
+            </ul>
+            <div class="selector">
+              <select name="organizations" id="organizations" class="visible-xs" ng-model="org" ng-options="org.name for org in orgs track by org.uid" ng-change="getOrgInfo(org,true)">
+                <option value="">Selecciona una organización</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4"><img src="{{ site.baseurl }}/img/basesciudadanas02.svg" width="100%"></div>
     </div>
   </div>
 </section>
@@ -124,7 +123,6 @@ layout: default
   </div>
 </section>
 
-<hr>
 <div>
   </div>
 </div>
