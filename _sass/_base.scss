@@ -16,7 +16,7 @@ a{
   color: $red;
 }
 
-a:hover{
+a:hover, a:visited {
   text-decoration: none;
   color: $purple;
 }
@@ -517,14 +517,6 @@ img.logo{
     font-family: 'Lato', sans-serif;
     color: $grey-darker;
     font-size: 15px;
-  }
-  a{
-    color: white;
-  }
-
-  a:hover{
-    text-decoration: none;
-    color: $blue;
   }
 }
 
