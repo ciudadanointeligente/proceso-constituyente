@@ -396,6 +396,10 @@ li > button.btn.btn-default:hover{
   border: none;
 }
 
+.btn-group-lg>.btn, .btn-lg {
+    padding: 25px 36px;
+}
+
 /*PETITIONS*/
 img.logo{
   margin-bottom: 20px;
