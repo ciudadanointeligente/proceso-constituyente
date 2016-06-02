@@ -24,7 +24,6 @@ layout: default
     </div>
   </div>
 </div>
-
 <section id="video">
   <div class="container">
     <div class="text-center">
@@ -32,94 +31,90 @@ layout: default
     </div>
   </div>
 </section>
-
 <section id="participa">
   <div class="container">
     <h2 class="text-center">¿Cómo participar?</h2>
     <h4 class="text-width text-center bajada">Pueden participar personas que tengan desde 14 años, sean chilenas o chilenos que vivan dentro o fuera del territorio nacional, o sean extranjeras o extranjeros residentes.</h4>
-<div class="tabs">
-    <!-- Radio button and lable for #tab-content1 -->
-    <input type="radio" name="tabs" id="tab1" checked >
-    <label id="organiza" for="tab1">
+    <div class="tabs">
+      <!-- Radio button and lable for #tab-content1 -->
+      <input type="radio" name="tabs" id="tab1" checked  onClick="ga('send','event','organiza','click')">
+      <label id="organiza" for="tab1">
         <span><h3>Organiza tu encuentro</h3></span>
-    </label>
-    <!-- Radio button and lable for #tab-content2 -->
-    <input type="radio" name="tabs" id="tab2">
-    <label id="asiste" for="tab2">
+      </label>
+      <!-- Radio button and lable for #tab-content2 -->
+      <input type="radio" name="tabs" id="tab2" onClick="ga('send','event','asiste','click')">
+      <label id="asiste" for="tab2">
         <span><h3>Asiste a un encuentro</h3></span>
-    </label>
-    <!-- Radio button and lable for #tab-content3 -->
-    <input type="radio" name="tabs" id="tab3">
-    <label id="individual" for="tab3">
-        <a href="https://www.unaconstitucionparachile.cl/registro" target="_blank"><span><h3>Participa individualmente</h3></span></a>
-    </label>
-    <div id="tab-content1" class="tab-content">
-      <div class="text-width text-center">
-        <h4>Los Encuentros Locales pueden ser inscritos con 5 días de anticipación hasta el 18 de junio, con un mínimo de 10 y un máximo de 30 participantes. Te invitamos a inscribirlo y habilitar la opción para que sea abierto. <strong>Inscribe tu encuentro en <a href="www.unaconstitucionparachile.cl">unaconstitucionparachile.cl</a></strong></h4>
-        <h3><a href="https://docs.google.com/forms/d/1er5s8PWT6Cz5CWxt3Zqc7-Fn8Zh4XhPx2lN2MqVfkS8/viewform" class="btn btn-default btn-lg" role="button" target="_blank">Publica tu encuentro</a></h3>
-      </div>
+      </label>
+      <!-- Radio button and lable for #tab-content3 -->
+      <input type="radio" name="tabs" id="tab3" onClick="ga('send','event','participa','click')">
+      <label id="individual" for="tab3">
+        <a href="https://www.unaconstitucionparachile.cl/registro" target="_blank" onClick="ga('send','event','web-constitucion-cl','click')"><span><h3>Participa individualmente</h3></span></a>
+      </label>
+      <div id="tab-content1" class="tab-content">
+        <div class="text-width text-center">
+          <h4>Los Encuentros Locales pueden ser inscritos con 5 días de anticipación hasta el 18 de junio, con un mínimo de 10 y un máximo de 30 participantes. Te invitamos a inscribirlo y habilitar la opción para que sea abierto. <strong>Inscribe tu encuentro en <a href="www.unaconstitucionparachile.cl" target="_blank" onClick="ga('send','event','inscribe-tu-encuentro','click')">unaconstitucionparachile.cl</a></strong></h4>
+          <h3><a href="https://docs.google.com/forms/d/1er5s8PWT6Cz5CWxt3Zqc7-Fn8Zh4XhPx2lN2MqVfkS8/viewform" class="btn btn-default btn-lg" role="button" target="_blank" onClick="ga('send','event','publica-tu-encuentro','click')">Publica tu encuentro</a></h3>
+        </div>
         {% include calendario-de-encuentros.html %}
-    </div> <!-- #tab-content1 -->
-    <div id="tab-content2" class="tab-content text-center">
-      <h4>Revisa el calendario de encuentros para sumarte al que prefieras.</h4>
-        <h3><!-- Tab title here --></h3>
-        {% include calendario-de-encuentros.html %}
-    </div> <!-- #tab-content2 -->
-</div>
-</section>
-
-<section id="miencuentro">
-  <div class="container">
-    <h2 class="text-center">Viene mi encuentro local</h2>
-    <h4 class="text-width text-center bajada">Revisa nuestra metodología e inspírate con las ideas que han salido desde la sociedad civil para la nueva Constitución.</h4>
-    <div class="row">
-      <div class="col-md-4 hidden-xs"><img src="{{ site.baseurl }}/img/participacion02.svg" width="100%"></div>
-      <div class="col-md-8 text-right margin-top"><h4>Revisa los consejos y dinámica metodológica que <a href="http://ciudadanointeligente.org/">Fundación Ciudadano Inteligente</a> comparte  para llevar a cabo un Encuentro Local.</h4>
-        <h3><a href="{{ site.baseurl }}/dinamica-fci.pdf" class="btn btn-default btn-lg">Tips y metodología</a></h3>
+        </div> <!-- #tab-content1 -->
+        <div id="tab-content2" class="tab-content text-center">
+          <h4>Revisa el calendario de encuentros para sumarte al que prefieras.</h4>
+          <h3><!-- Tab title here --></h3>
+          {% include calendario-de-encuentros.html %}
+          </div> <!-- #tab-content2 -->
+        </div>
+      </section>
+      <section id="miencuentro">
+        <div class="container">
+          <h2 class="text-center">Viene mi encuentro local</h2>
+          <h4 class="text-width text-center bajada">Revisa nuestra metodología e inspírate con las ideas que han salido desde la sociedad civil para la nueva Constitución.</h4>
+          <div class="row">
+            <div class="col-md-4 hidden-xs"><img src="{{ site.baseurl }}/img/participacion02.svg" width="100%"></div>
+            <div class="col-md-8 text-right margin-top"><h4>Revisa los consejos y dinámica metodológica que <a href="http://ciudadanointeligente.org/" onClick="ga('send','event','fci-link','click')">Fundación Ciudadano Inteligente</a> comparte  para llevar a cabo un Encuentro Local.</h4>
+            <h3><a href="{{ site.baseurl }}/dinamica-fci.pdf" class="btn btn-default btn-lg" onClick="ga('send','event','tips-metodologia-pdf','click')">Tips y metodología</a></h3>
+          </div>
+        </div>
+        <div class="row margin-top">
+          <div class="col-md-8">
+            <h4>Ideas desde la Sociedad Civil para la nueva Constitución</h4>
+            <p class="bajada">Selecciona cada organización para conocer sus opiniones respecto a las temáticas a tocar en los encuentros locales y en la consulta individual. </p>
+            <div>
+              <ul class="list-inline hidden-xs">
+                <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default pull-right">[[org.name]]</button></li>
+              </ul>
+              <div class="selector">
+                <select name="organizations" id="organizations" class="visible-xs" ng-model="org" ng-options="org.name for org in orgs track by org.uid" ng-change="getOrgInfo(org,true)">
+                  <option value="">Selecciona una organización</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 hidden-xs"><img src="{{ site.baseurl }}/img/basesciudadanas02.svg" width="100%"></div>
+        </div>
       </div>
-    </div>
-    <div class="row margin-top">
-        <div class="col-md-8">
-          <h4>Ideas desde la Sociedad Civil para la nueva Constitución</h4>
-           <p class="bajada">Selecciona cada organización para conocer sus opiniones respecto a las temáticas a tocar en los encuentros locales y en la consulta individual. </p>
-          <div>
-            <ul class="list-inline hidden-xs">
-              <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default pull-right">[[org.name]]</button></li>
-            </ul>
-            <div class="selector">
-              <select name="organizations" id="organizations" class="visible-xs" ng-model="org" ng-options="org.name for org in orgs track by org.uid" ng-change="getOrgInfo(org,true)">
-                <option value="">Selecciona una organización</option>
-              </select>
+    </section>
+    <section id="org-details" style="background-color: [[bgColor]]">
+      <div class="container">
+        <div id="petitions" class="row">
+          <div class="col-md-12 text-center" ng-bind-html="orgLogo"></div>
+          <div class="col-sm-6 col-md-3" ng-repeat="p in orgInfo">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <i class="fa fa-bookmark fa-lg" aria-hidden="true"></i>
+                <h3>[[p.question]]</h3>
+              </div>
+              <div class="panel-body">
+                <div ng-repeat="q in p.petitions">
+                  <h4>[[q.petition_q]]</h4>
+                  <p>[[q.petition_a]]</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4 hidden-xs"><img src="{{ site.baseurl }}/img/basesciudadanas02.svg" width="100%"></div>
-    </div>
-  </div>
-</section>
-
-<section id="org-details" style="background-color: [[bgColor]]">
-  <div class="container">
-    <div id="petitions" class="row">
-      <div class="col-md-12 text-center" ng-bind-html="orgLogo"></div>
-      <div class="col-sm-6 col-md-3" ng-repeat="p in orgInfo">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-              <i class="fa fa-bookmark fa-lg" aria-hidden="true"></i>
-              <h3>[[p.question]]</h3>
-            </div>
-            <div class="panel-body">
-              <div ng-repeat="q in p.petitions">
-                <h4>[[q.petition_q]]</h4>
-                <p>[[q.petition_a]]</p>
-              </div>
-            </div>
-        </div>
       </div>
+    </section>
+    <div>
     </div>
   </div>
-</section>
-
-<div>
-  </div>
-</div>
