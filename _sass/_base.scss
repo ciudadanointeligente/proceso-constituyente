@@ -7,11 +7,108 @@ body {
   background-color: $grey-white;
 }
 
+.text-width {
+  max-width: 850px;
+  margin: 0 auto;
+}
 
+h1 {
+  color: $blue;
+  font-weight: 700;
+  font-size: 42px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+hr {
+    background: url(../img/linea-colores.svg) repeat-x;
+    height: 4px;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.blanco {
+  color: white;
+}
+
+.bg-azul {
+  background-color: $blue;
+  color: white;
+}
+
+.bg-rojo {
+  background-color: $red;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2.text-center {
+    margin-top: 110px;
+}
+
+.bajada {
+  margin-bottom: 60px;
+  opacity: 0.7;
+}
+
+.margin-top {
+  margin-top: 100px;
+}
+
+
+
+.arrow {
+    text-align: center;
+    width: 100%;
+    margin: -30px 0 50px;
+}
+
+.arrow span {
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    -webkit-transition: -webkit-transform 0.33s cubic-bezier(0.33, 0, 0.2, 1);
+    transition: transform 0.33s cubic-bezier(0.33, 0, 0.2, 1);
+    width: 35px;
+    padding: 20px 15px;
+}
+
+.aligner {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.aligner .aligned {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
 
 /*HEADER*/
 header > .navbar-default {
-  height: 85px;
+  height: 75px;
   color: #FFF;
   font-family: 'Raleway', sans-serif;
   background-color: $stone-dark;
@@ -21,15 +118,20 @@ header > .navbar-default {
   .navbar-brand, .navbar-brand:hover {
     color: #FFF;
   }
+
   .navbar-nav > li.active > a, .navbar-nav > li.active > a:hover {
     color: #FFF;
     background-color: #2C2C6F;
+    padding: 15px 8px;
   }
-  .navbar-nav > li > a, .navbar-nav > li > a:hover {
+  .navbar-nav > li > a {
+    color: #80B9C4;
+  }
+.navbar-nav > li > a:hover {
     color: #FFF;
   }
   .navbar-right{
-    margin-top: 15px;
+    margin-top: 12px;
   }
   .navbar-toggle{
     margin-top: -60px;
@@ -53,21 +155,16 @@ header > .navbar-default {
   }
 }
 
-.fa-stack{
-  margin-top: -9px;
-  color: $blue;
+header > .navbar-default .navbar-nav > li.redes > a {
+    padding: 15px 0px;
 }
 
-#main-header {
-  background: url('/img/personas.png') 50%/auto no-repeat;
-  background-position: center;
-  min-height: 400px;
-  img {
-    margin: 0 auto;
-  }
-  a.btn.btn-default{
-    color: white;
-  }
+.fa-stack{
+  margin-top: -9px;
+}
+
+.fa-inverse {
+    color: $stone-dark;
 }
 
 .patron{
@@ -75,16 +172,195 @@ header > .navbar-default {
   height: 8px;
 }
 
+#main-header h1 {
+  margin-bottom: 70px;
+}
+
+/*VIDEO*/
+
+section#video {
+  background: #4DB8A6;
+  padding: 20px 0;
+}
+
+/*PARTICIPA*/
+
+.tabs {
+    float: none;
+    list-style: none;
+    padding: 0;
+    margin: 75px auto;
+}
+.tabs:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.tabs input[type=radio] {
+    display:none;
+}
+.tabs label {
+    display: block;
+    float: left;
+    width: 32.3333%;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding: 10px 0px 20px;
+    margin-right: 1%;
+    border-radius: 30px;
+    margin-bottom: 0;
+}
+
+.tabs label#organiza {
+  border: 4px solid $purple;
+  color: $purple;
+}
+
+.tabs label#asiste {
+  border: 4px solid $blue;
+  color: $blue;
+}
+
+.tabs label#individual {
+  border: 4px solid $green;
+}
+
+.tabs label#individual a{
+  color: $green;
+}
+
+.tabs label#organiza:hover {
+  background: $purple;
+    color: white;
+}
+
+.tabs label#asiste:hover {
+  background: $blue;
+    color: white;
+}
+
+.tabs label#individual:hover {
+  background: $green;
+}
+
+.tabs label#individual a:hover {
+  color: white;
+}
+
+.tabs [id^="tab"]:checked + label#organiza {
+    background: $purple;
+    color: white;
+}
+
+.tabs [id^="tab"]:checked + label#asiste {
+    background: $blue;
+    color: white;
+}
+
+.tabs [id^="tab"]:checked + label#organiza:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(236, 105, 90, 0);
+  border-top-color: $purple;
+  border-width: 20px;
+  margin-left: -20px;
+}
+
+.tabs [id^="tab"]:checked + label#asiste:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(236, 105, 90, 0);
+  border-top-color: $blue;
+  border-width: 20px;
+  margin-left: -20px;
+}
+
+.tabs label i {
+    padding: 5px;
+    margin-right: 0;
+}
+.tabs label:hover {
+
+}
+.tab-content {
+    display: none;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.tab-content * {
+    -webkit-animation: scale 0.7s ease-in-out;
+    -moz-animation: scale 0.7s ease-in-out;
+    animation: scale 0.7s ease-in-out;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+    }
+  50% {
+    transform: scale(1.01);
+    opacity: 0.5;
+    }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.tabs [id^="tab"]:checked + label {
+  position: relative;
+}
+
+#tab1:checked ~ #tab-content1,
+#tab2:checked ~ #tab-content2,
+#tab3:checked ~ #tab-content3 {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .tabs i {
+        padding: 5px;
+        margin-right: 10px;
+    }
+    .tabs label span {
+        display: inline-block;
+    }
+    .tabs {
+    margin: 50px auto;
+    }
+}
+
+/*MI ENCUENTRO*/
+
+section#miencuentro {
+  background: $stone-dark;
+  color: white;
+  padding: 0 0 80px;
+}
+
 /*WELCOME*/
 #main-header{
   text-align: center;
   padding: 135px 0 50px 0;
-  h2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    color: $grey-darker;
-    font-weight: 700;
-  }
   p.bajada{
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -115,9 +391,13 @@ li > button.btn.btn-default{
 }
 
 li > button.btn.btn-default:hover{
-  background-color: $orange;
+  background-color: $red;
   color: #FFF;
   border: none;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 25px 36px;
 }
 
 /*PETITIONS*/
@@ -126,8 +406,7 @@ img.logo{
 }
 
 #petitions {
-  min-height: 500px;
-  padding-top: 60px;
+  padding: 60px 0;
   .panel{
     border-radius: 5px;
     box-shadow: none;
@@ -159,6 +438,11 @@ img.logo{
       font-weight: 700;
     }
   }
+}
+
+#org-details {
+    padding: 60px 0;
+    background-color: #9967A8;
 }
 
 /*QUIENES-SOMOS*/
@@ -214,15 +498,19 @@ img.logo{
 }
 
 .btn.btn-default{
-  background-color: $orange;
+  background-color: $red;
   border: none;
   color: white;
   margin-bottom: 20px;
   border-radius: 40px;
+  transition: all 0.5s;
 }
 
 .btn.btn-default:hover{
-  background-color: $stone-dark;
+  background-color: $purple;
+}
+
+.btn.btn-default a {
   color: white;
 }
 
@@ -267,7 +555,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 200px;
-  background-color: $stone;
+  background-color: $purple;
   a, a:hover {
     color: #FFF;
     img {
@@ -304,6 +592,27 @@ select#organizations{
 
   .navbar-default .navbar-collapse, .navbar-default .navbar-form{
     border: none;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+    .tabs label {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .margin-top {
+      margin-top: 10px;
   }
 
 }

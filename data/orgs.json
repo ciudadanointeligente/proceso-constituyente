@@ -76,7 +76,59 @@
     ]
   },
   {
-    "uid": 2,
+  "uid": 2,
+  "name": "Chile Descentralizado",
+  "bg_color": "#F89869",
+  "logo": "/img/orgs/logo-descentralizado.png",
+  "questions": [{
+    "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
+    "petitions": [{
+      "petition_q": "DESCENTRALIZACIÓN",
+      "petition_a": "Porque queremos un Estado descentralizado (unitario) que entregue mayores grados de autonomía política, administrativa y financiera a las diversas comunidades regionales de nuestro país para que tengan mayor poder de decisión ante los desafíos y problemáticas que los aquejan."
+    }, {
+      "petition_q": "PARTICIPACIÓN CIUDADANA",
+      "petition_a": "Porque queremos una ciudadanía empoderada que tenga control efectivo sobre sus representantes en el Estado y que éstos rindan cuentas y sean verdaderos servidores públicos que aboguen por el bienestar de los individuos y las comunidades, especialmente en regiones donde muchas veces el Estado ha tenido deficiencias en proveer bienes y servicios, y generar condiciones para el emprendimiento privado."
+    }, {
+      "petition_q": "DESARROLLO",
+      "petition_a": "Porque entendemos que Chile tiene que ser un país descentralizado como condición de su desarrollo, en donde todos los chilenos, sin importar la región o el lugar geográfico del país donde vivan, puedan tener una buena calidad de vida oportunidades para desarrollar sus potencialidades y proyectos de vida, así como también en la comunidad donde están insertos."
+    }]
+  }, {
+    "question": "¿Cuáles son los derechos, deberes y/o responsabilidades más importantes que el debate constitucional debe considerar?",
+    "petitions": [{
+      "petition_q": "AUTONOMÍA REGIONAL",
+      "petition_a": "Porque creemos que cada comunidad regional tiene el legítimo derecho de escoger a sus autoridades políticas para establecer prioridades para el desarrollo de políticas locales y regionales de acuerdo a sus realidades particulares."
+    }, {
+      "petition_q": "RESPONSABILIDAD FISCAL",
+      "petition_a": "Porque creemos que la autonomía regional debe estar acompañada de los recursos para ejercerla, pero creemos que deben existir los controles necesarios para que los recursos regionales sean ejecutados de manera responsable y se hagan esfuerzos por lograr una mayor recaudación de recursos que permiten un equilibrio financiero responsable que genere servicios y bienes públicos de calidad, así como condiciones de desarrollo económico para la región."
+    }, {
+      "petition_q": "SUBSIDARIEDAD TERRITORIAL",
+      "petition_a": "Porque creemos en la opción preferente por la radicación de potestades públicas en los órganos más cercanos a la ciudadanía, en un orden que va desde lo local (municipalidad), paso por lo intermedio (gobierno regional) y llega al ente más lejano del ciudadano (gobierno central)."
+    }, {
+      "petition_q": "PARTICIPACIÓN Y TRANSPARENCIA",
+      "petition_a": "Creemos en el derecho que tiene la ciudadanía a participar de los asuntos públicos que les afectan y también creemos en el derecho a la transparencia que tienen los ciudadanos sobre los funcionarios estatales considerando que es la comunidad a través de los impuestos quienes financian sus actividades."
+    }]
+  }, {
+    "question": "¿Cuáles son las instituciones del Estado más importantes para el debate constitucional y qué características deberían tener?",
+    "petitions": [{
+      "petition_q": "MUNICIPALIDAD",
+      "petition_a": "Como órgano público más cercano al ciudadano resulta de suma importancia que realicen sus tareas con los recursos adecuados para entregar un buen servicio a la comunidad, así como también bajo controles de transparencia que eviten el mal uso de recursos públicos."
+    }, {
+      "petition_q": "GOBIERNO REGIONAL",
+      "petition_a": "Porque es el órgano que articula las demandas de las comunas en torno a un proyecto común de región, donde se establece la directriz de desarrollo que una comunidad regional legítimamente debería escoger de manera democrática."
+    }, {
+      "petition_q": "CONTRALORÍA",
+      "petition_a": "Porque es el órgano que vela por el buen uso de los recursos públicos que provienen desde la ciudadanía, por lo que es muy relevante que estos recursos sean usado de manera proba y en beneficio del bien común nacional, de las regiones, y las diversas comunas del país."
+    }]
+  }, {
+    "question": "¿Cuál debería ser la instancia encargada de redactar una nueva constitución?",
+    "petitions": [{
+      "petition_q": "CONVENCIÓN CONSTITUYENTE MIXTA",
+      "petition_a": "Convención Constituyente Mixta, que incluya a parlamentarios y ciudadanos."
+    }]
+  }]
+},
+  {
+    "uid": 3,
     "name": "Ciudad Emergente",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-ciudademergente.png",
@@ -140,7 +192,7 @@
     ]
   },
   {
-    "uid": 3,
+    "uid": 4,
     "name": "Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
@@ -208,7 +260,7 @@
     ]
   },
   {
-    "uid": 4,
+    "uid": 5,
     "name": "ComunidadMujer",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-mujer.png",
@@ -276,7 +328,7 @@
     ]
   },
   {
-    "uid": 5,
+    "uid": 6,
     "name": "Educación 2020",
     "bg_color": "#58B8A8",
     "logo": "/img/orgs/logo-2020.png",
@@ -344,7 +396,7 @@
     ]
   },
   {
-    "uid": 6,
+    "uid": 7,
     "name": "Fundación Superación de la Pobreza",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fusupo.png",
@@ -404,7 +456,7 @@
     ]
   },
     {
-    "uid": 7,
+    "uid": 8,
     "name": "Girasoles",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-girasoles.png",
@@ -476,7 +528,7 @@
     ]
   },
   {
-    "uid": 8,
+    "uid": 9,
     "name": "Iguales",
     "bg_color": "#D95F51",
     "logo": "/img/orgs/logo-iguales.png",
@@ -536,7 +588,7 @@
     ]
   },
   {
-    "uid": 9,
+    "uid": 10,
     "name": "Hogar de Cristo",
     "bg_color": "#58B8A8",
     "logo": "/img/orgs/logo-hogar.png",
@@ -596,7 +648,7 @@
     ]
   },
   {
-    "uid": 10,
+    "uid": 11,
     "name": "Humanas",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-humanas.png",
@@ -668,7 +720,7 @@
     ]
   },
   {
-    "uid": 11,
+    "uid": 12,
     "name": "Opción",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-opcion.png",
@@ -720,7 +772,7 @@
     ]
   },
     {
-    "uid": 12,
+    "uid": 13,
     "name": "Socialab",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-socialab.png",

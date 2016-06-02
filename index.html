@@ -5,25 +5,95 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <img src="/img/welcome.png" class="img-responsive" alt="Cabildeas">
-        <h2>Ideas desde la sociedad civil para la nueva Constitución</h2>
-        <p class="bajada">Selecciona cada organización para conocer sus opiniones respecto a las temáticas a tocar en los encuentros locales y en la consulta individual. Si quieres conocer cómo participar de estos y otros espacios, recuerda informarte en <a href="//www.unaconstitucionparachile.cl" onClick="ga('send', 'event', 'link-main-header', 'click');">www.unaconstitucionparachile.cl</a></p>
-        <a href="https://docs.google.com/forms/d/1DmZcr8rBD4uvUNFR5YwkeLQTrqHe7zj2Qzdf8E1nuLI/formResponse" role="button" class="btn btn-default" target="_blank" onClick="ga('send', 'event', 'responder-formulario', 'click');">Suma a tu ONG</a>
+        <h1 class="text-width">De nosotros depende que construyamos la Constitución que queremos</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="{{ site.baseurl }}/img/1-participacion.svg">
+            <h4><strong>Participemos del Proceso Constituyente.</strong> Entre más seamos, tendremos más poder para fiscalizar.</h4>
+          </div>
+          <div class="col-md-4">
+            <img src="{{ site.baseurl }}/img/2-basesciudadanas.svg">
+            <h4><strong>Construiremos las Bases Ciudadanas</strong> de la nueva Constitución, referente de la discusión constitucional.</h4>
+          </div>
+          <div class="col-md-4">
+            <img src="{{ site.baseurl }}/img/3-fiscalizacion.svg">
+            <h4><strong>Participemos y fiscalicemos</strong> este proceso hasta el final. De nosotros depende.</h4>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<section>
+<section id="video">
   <div class="container">
-    <ul class="list-inline text-center hidden-xs">
-      <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default pull-right">[[org.name]]</button></li>
-    </ul>
+    <div class="text-center">
+      <iframe src="https://player.vimeo.com/video/168050825" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
 
-    <div class="selector">
-      <select name="organizations" id="organizations" class="visible-xs" ng-model="org" ng-options="org.name for org in orgs track by org.uid" ng-change="getOrgInfo(org,true)">
-        <option value="">Selecciona una organización</option>
-      </select>
+<section id="participa">
+  <div class="container">
+    <h2 class="text-center">¿Cómo participar?</h2>
+    <h4 class="text-width text-center bajada">Pueden participar personas que tengan desde 14 años, sean chilenas o chilenos que vivan dentro o fuera del territorio nacional, o sean extranjeras o extranjeros residentes.</h4>
+<div class="tabs">
+    <!-- Radio button and lable for #tab-content1 -->
+    <input type="radio" name="tabs" id="tab1" checked >
+    <label id="organiza" for="tab1">
+        <span><h3>Organiza tu encuentro</h3></span>
+    </label>
+    <!-- Radio button and lable for #tab-content2 -->
+    <input type="radio" name="tabs" id="tab2">
+    <label id="asiste" for="tab2">
+        <span><h3>Asiste a un encuentro</h3></span>
+    </label>
+    <!-- Radio button and lable for #tab-content3 -->
+    <input type="radio" name="tabs" id="tab3">
+    <label id="individual" for="tab3">
+        <a href="https://www.unaconstitucionparachile.cl/registro" target="_blank"><span><h3>Participa individualmente</h3></span></a>
+    </label>
+    <div id="tab-content1" class="tab-content">
+      <div class="text-width text-center">
+        <h4>Los Encuentros Locales pueden ser inscritos con 5 días de anticipación hasta el 18 de junio, con un mínimo de 10 y un máximo de 30 participantes. Te invitamos a inscribirlo abierto. <strong>Inscribe tu encuentro en <a href="www.unaconstitucionparachile.cl">unaconstitucionparachile.cl</a></strong></h4>
+        <h3><a href="https://docs.google.com/forms/d/1er5s8PWT6Cz5CWxt3Zqc7-Fn8Zh4XhPx2lN2MqVfkS8/viewform" class="btn btn-default btn-lg" role="button" target="_blank">Publica tu encuentro</a></h3>
+      </div>
+        {% include calendario-de-encuentros.html %}
+    </div> <!-- #tab-content1 -->
+    <div id="tab-content2" class="tab-content text-center">
+      <h4>Revisa el calendario de encuentros para sumarte al que prefieras.</h4>
+        <h3><!-- Tab title here --></h3>
+        {% include calendario-de-encuentros.html %}
+    </div> <!-- #tab-content2 -->
+</div>
+</section>
+
+<section id="miencuentro">
+  <div class="container">
+    <h2 class="text-center">Viene mi encuentro local</h2>
+    <h4 class="text-width text-center bajada">Revisa nuestra metodología e inspírate con las ideas que han salido desde la sociedad civil para la nueva Constitución.</h4>
+    <div class="row">
+      <div class="col-md-4 hidden-xs"><img src="{{ site.baseurl }}/img/participacion02.svg" width="100%"></div>
+      <div class="col-md-8 text-right margin-top"><h4>Revisa los consejos y dinámica metodológica que Fundación Ciudadano Inteligente comparte  para llevar a cabo un Encuentro Local.</h4>
+        <h3><a href="{{ site.baseurl }}/dinamica-fci.pdf" class="btn btn-default btn-lg">Tips y metodología</a></h3>
+      </div>
+    </div>
+    <div class="row margin-top">
+        <div class="col-md-8">
+          <h4>Ideas desde la Sociedad Civil para la nueva Constitución</h4>
+           <p class="bajada">Selecciona cada organización para conocer sus opiniones respecto a las temáticas a tocar en los encuentros locales y en la consulta individual. </p>
+          <div>
+            <ul class="list-inline hidden-xs">
+              <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default pull-right">[[org.name]]</button></li>
+            </ul>
+            <div class="selector">
+              <select name="organizations" id="organizations" class="visible-xs" ng-model="org" ng-options="org.name for org in orgs track by org.uid" ng-change="getOrgInfo(org,true)">
+                <option value="">Selecciona una organización</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 hidden-xs"><img src="{{ site.baseurl }}/img/basesciudadanas02.svg" width="100%"></div>
     </div>
   </div>
 </section>
@@ -51,6 +121,5 @@ layout: default
 </section>
 
 <div>
-  <div class="patronancho">
   </div>
 </div>
