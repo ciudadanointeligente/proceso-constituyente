@@ -76,7 +76,33 @@
     ]
   },
   {
-  "uid": 2,
+    "uid": 2,
+    "name": "Amnistía Internacional",
+    "bg_color": "#D95F51",
+    "logo": "/img/orgs/logo-america.png",
+    "questions": [
+      {
+        "question": "¿Cuáles son los derechos, deberes y/o responsabilidades más importantes que el debate constitucional debe considerar?",
+        "petitions": [
+          {
+            "petition_q": "#TodosMisDerechos",
+            "petition_a": "Dado que somos un movimiento de defensa y promoción de los derechos humanos, durante todo el proceso tendremos nuestro foco en asegurar que la nueva Constitución resguarde los derechos de las personas en línea con los estándares internacionales de derechos humanos. Los derechos humanos son indivisibles. Para vivir en dignidad, todas las personas deben tener acceso a todos sus derechos, tanto civiles y políticos, como económicos, sociales y culturales. No es posible que se ponga a una persona en posición de tener que elegir si para ella es más importante la vida que la salud, la libertad de expresión que la vivienda. Todos los derechos humanos garantizados en el derecho internacional deben estar resguardados en la Constitución. Te invitamos a exigir todos tus derechos. Más información aquí: http://amnistia.cl/web/wp-content/uploads/2016/06/TodosMisDerechos-en-la-Nueva-Constitución.pdf"
+          }
+        ]
+      },
+      {
+        "question": "¿Cuál debería ser la instancia encargada de redactar una nueva constitución?",
+        "petitions": [
+          {
+            "petition_q": "",
+            "petition_a": "Cualquiera que sea el mecanismo definitivo, es fundamental que sea participativo. Debe asegurarse que los mecanismos que se pongan en práctica, en todas las etapas del proceso, garanticen el derecho a la participación en asuntos públicos en forma efectiva, tal como lo garantizan los tratados internacionales."
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "uid": 3,
   "name": "Chile Descentralizado",
   "bg_color": "#F89869",
   "logo": "/img/orgs/logo-descentralizado.png",
@@ -128,7 +154,7 @@
   }]
 },
   {
-    "uid": 3,
+    "uid": 4,
     "name": "Ciudad Emergente",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-ciudademergente.png",
@@ -192,7 +218,7 @@
     ]
   },
   {
-    "uid": 4,
+    "uid": 5,
     "name": "Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
@@ -260,7 +286,7 @@
     ]
   },
   {
-    "uid": 5,
+    "uid": 6,
     "name": "ComunidadMujer",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-mujer.png",
@@ -328,7 +354,7 @@
     ]
   },
   {
-    "uid": 6,
+    "uid": 7,
     "name": "Educación 2020",
     "bg_color": "#58B8A8",
     "logo": "/img/orgs/logo-2020.png",
@@ -396,7 +422,7 @@
     ]
   },
   {
-    "uid": 7,
+    "uid": 8,
     "name": "Fundación Superación de la Pobreza",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fusupo.png",
@@ -456,7 +482,7 @@
     ]
   },
     {
-    "uid": 8,
+    "uid": 9,
     "name": "Girasoles",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-girasoles.png",
@@ -528,7 +554,7 @@
     ]
   },
   {
-    "uid": 9,
+    "uid": 10,
     "name": "Iguales",
     "bg_color": "#D95F51",
     "logo": "/img/orgs/logo-iguales.png",
@@ -588,7 +614,7 @@
     ]
   },
   {
-    "uid": 10,
+    "uid": 11,
     "name": "Hogar de Cristo",
     "bg_color": "#58B8A8",
     "logo": "/img/orgs/logo-hogar.png",
@@ -648,7 +674,7 @@
     ]
   },
   {
-    "uid": 11,
+    "uid": 12,
     "name": "Humanas",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-humanas.png",
@@ -720,7 +746,7 @@
     ]
   },
   {
-    "uid": 12,
+    "uid": 13,
     "name": "Opción",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-opcion.png",
@@ -788,7 +814,7 @@
     ]
   },
     {
-    "uid": 13,
+    "uid": 14,
     "name": "Socialab",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-socialab.png",
