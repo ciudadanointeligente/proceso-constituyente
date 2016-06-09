@@ -3,6 +3,12 @@ var app = angular.module('webApp', ['ngSanitize'], function($interpolateProvider
   $interpolateProvider.endSymbol(']]');
 });
 
+app.filter("sanitize", ['$sce', function($sce) {
+  return function(htmlCode){
+    return $sce.trustAsHtml(htmlCode);
+  }
+}]);
+
 app.controller('homepageController', function($scope,$http){
   $scope.orgs = [];
   $scope.orgInfo = [];

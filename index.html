@@ -107,7 +107,7 @@ layout: default
               <div class="panel-body">
                 <div ng-repeat="q in p.petitions">
                   <h4>[[q.petition_q]]</h4>
-                  <p>[[q.petition_a]]</p>
+                  <p ng-bind-html="q.petition_a | sanitize"></p>
                 </div>
               </div>
             </div>
