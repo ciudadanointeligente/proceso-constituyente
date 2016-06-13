@@ -101,8 +101,71 @@
       }
     ]
   },
+    {
+    "uid": 3,
+    "name": "Base Pública",
+    "bg_color": "#D95F51",
+    "logo": "/img/orgs/logo-america.png",
+    "questions": [
+      {
+        "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
+        "petitions": [
+          {
+            "petition_q": "EQUIDAD",
+            "petition_a": "Soñamos con una sociedad inclusiva y justa, donde todos y todas podamos construir un país del cual nos sintamos orgullosos, velando por un desarrollo sostenible que asegure nuestros recursos para las futuras generaciones. Una sociedad que se preocupe especialmente de los excluidos, donde todos tengamos accesos a los bienes que juntos construimos, donde no exista discriminación de ningún tipo y se reconozca la rica diversidad que somos. Que seamos un país donde se proteja la dignidad de todas las personas para que vivan con libertad su proyecto personal y colectivo que están llamados a construir."
+          },
+          {
+            "petition_q": "PARTICIPACIÓN CIUDADANA",
+            "petition_a": "Creemos en un país donde sus ciudadanos y ciudadanas sean protagonistas en la construcción de la sociedad, entendiendo la participación como el conjunto de acciones e iniciativas que surgen desde la ciudadanía para influir e incidir sobre los temas que atingen a sus comunidades. Actualmente existe la necesidad de promover y generar mayores espacios de participación legítimos y vinculantes, donde personas de diversos ámbitos, desde lo público a lo privado, se articulen para construir diálogo en torno a los temas de interés público. Fortalecer la participación es fortalecer nuestra democracia."
+          },
+          {
+            "petition_q": "COLABORACIÓN",
+            "petition_a": "Necesitamos avanzar hacia una sociedad que ponga el valor de la colaboración por sobre el de la competencia, entendiendo que la base para la construcción social del país se logra a través del trabajo colectivo. Creemos en una Constitución que fortalezca la articulación ciudadana, los espacios para la acción colectiva, la riqueza de los vínculos y el encuentro con el otro. De esta forma lograremos un Chile más justo e inclusivo, donde todos y todas podamos participar."
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son los derechos, deberes y/o responsabilidades más importantes que el debate constitucional debe considerar?",
+        "petitions": [
+          {
+            "petition_q": "PROTECCIÓN, PROMOCIÓN Y RESPETO DE DD.HH.",
+            "petition_a": "La próxima Constitución que redactemos en democracia debe reconocer y garantizar el pleno respeto a los derechos que emanan de la naturaleza humana, en razón de su dignidad esencial. Además, debe respetar los derechos reconocidos en los Tratados Internacionales en materia de Derechos Humanos, tanto los derechos individuales como los económicos, sociales y culturales. Es decir, avanzar en que nuestra Constitución promueva libertades y derechos, tales como salud, educación, protección social, y por supuesto, aquellos que la ciudadanía determine a través de este proceso constituyente."
+          },
+          {
+            "petition_q": "DERECHO Y DEBER DE PARTICIPACIÓN",
+            "petition_a": "El derecho a la participación debe ser un derecho fundamental garantizado, un principio que inspire nuestra Constitución en democracia. La participación debe protegerse en todo ámbito de la sociedad, es decir, no solo el Estado debe garantizar y promover espacios de participación, sino que toda la ciudadanía debe hacerse responsable de que se dé en diversos espacios."
+          },
+          {
+            "petition_q": "DERECHO A LA INFORMACIÓN Y LIBERTAD DE EXPRESIÓN",
+            "petition_a": "Creemos que el derecho a la información es fundamental para que los ciudadanos participen de manera consciente y responsable en los temas de interés público, además de garantizar transparencia en el actuar de autoridades y representantes. Asimismo, reconocemos la protección del derecho a la libertad de expresión como requisito fundamental para la participación y la generación de contenidos que promueven una ciudadanía informada."
+          },
+          {
+            "petition_q": "DEBER DE RESPETO POR LOS DERECHOS DEL OTRO",
+            "petition_a": "Estamos convencidos de que la nueva Constitución debe estar basada en el respeto a los derechos del otro, acogiendo nuestras diferencias. Junto a ello, promovemos el servicio a la comunidad, entendido como la necesidad y obligación de apoyar y atender al otro, para que nadie esté desprovisto de sus derechos."
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son las instituciones del Estado más importantes para el debate constitucional y qué características deberían tener?",
+        "petitions": [
+          {
+            "petition_q": "CONSEJO PARA LA TRANSPARENCIA",
+            "petition_a": "Abogamos por el fortalecimiento de una institución que vele por el cumplimiento del acceso a la información, ya que la consideramos un elemento esencial para el empoderamiento ciudadano: información para la acción."
+          },
+          {
+            "petition_q": "CONSEJO PARA LA PARTICIPACIÓN",
+            "petition_a": "Creemos que es fundamental contar con una institución, autónoma y descentralizada, que vele por una participación ciudadana real y vinculante, que sea respetada por las demás instituciones en todos los procesos democráticos, y fortalezca todos los mecanismos de participación existentes."
+          },
+          {
+            "petition_q": "DEFENSOR CIUDADANO",
+            "petition_a": "Proponemos la creación de una entidad que se encargue de proteger y garantizar los derechos de la ciudadanía, especialmente cuando éstos son vulnerados por el propio Estado."
+          }
+        ]
+      }
+    ]
+  },
   {
-  "uid": 3,
+  "uid": 4,
   "name": "Chile Descentralizado",
   "bg_color": "#F89869",
   "logo": "/img/orgs/logo-descentralizado.png",
@@ -154,7 +217,7 @@
   }]
 },
   {
-    "uid": 4,
+    "uid": 5,
     "name": "Ciudad Emergente",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-ciudademergente.png",
@@ -218,7 +281,7 @@
     ]
   },
   {
-    "uid": 5,
+    "uid": 6,
     "name": "Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
@@ -286,7 +349,7 @@
     ]
   },
   {
-    "uid": 6,
+    "uid": 7,
     "name": "ComunidadMujer",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-mujer.png",
@@ -354,7 +417,7 @@
     ]
   },
   {
-    "uid": 7,
+    "uid": 8,
     "name": "Educación 2020",
     "bg_color": "#58B8A8",
     "logo": "/img/orgs/logo-2020.png",
@@ -422,7 +485,7 @@
     ]
   },
   {
-    "uid": 8,
+    "uid": 9,
     "name": "Fundación Superación de la Pobreza",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fusupo.png",
@@ -482,7 +545,7 @@
     ]
   },
     {
-    "uid": 9,
+    "uid": 10,
     "name": "Girasoles",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-girasoles.png",
@@ -554,7 +617,7 @@
     ]
   },
   {
-    "uid": 10,
+    "uid": 11,
     "name": "Iguales",
     "bg_color": "#D95F51",
     "logo": "/img/orgs/logo-iguales.png",
@@ -614,7 +677,7 @@
     ]
   },
   {
-    "uid": 11,
+    "uid": 12,
     "name": "Hogar de Cristo",
     "bg_color": "#58B8A8",
     "logo": "/img/orgs/logo-hogar.png",
@@ -674,7 +737,7 @@
     ]
   },
   {
-    "uid": 12,
+    "uid": 13,
     "name": "Humanas",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-humanas.png",
@@ -746,7 +809,7 @@
     ]
   },
   {
-    "uid": 13,
+    "uid": 14,
     "name": "Opción",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-opcion.png",
@@ -814,7 +877,7 @@
     ]
   },
     {
-    "uid": 14,
+    "uid": 15,
     "name": "Socialab",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-socialab.png",
