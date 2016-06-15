@@ -101,8 +101,76 @@
       }
     ]
   },
-    {
+  {
     "uid": 3,
+    "name": "Aula Cívica",
+    "bg_color": "#94D0DB",
+    "logo": "/img/orgs/logo-aula.png",
+    "questions": [
+      {
+        "question": "¿Cuáles son los valores o principios más importantes que deben inspirar y dar sustento a la Constitución?¿Por qué?",
+        "petitions": [
+          {
+            "petition_q": "IGUALDAD ANTE LA LEY",
+            "petition_a": "La igualdad ante la ley, busca asegurar que todos los ciudadanos sean iguales en derechos y libertades, además que sean tratados de manera imparcial por las autoridades, y se encuentren capacitados por igual para postular a cargos públicos."
+          },
+          {
+            "petition_q": "SUBSIDIARIEDAD",
+            "petition_a": "Se buscan equilibrios entre el ejercicio de la autoridad por parte del Estado y la protección y promoción de los derechos y libertades civiles. Apela también a la responsabilidad que tienen los organismos estatales, civiles y de mercado en cuanto a velar por la creación de condiciones habilitantes para el desarrollo y realización de cada ser humano. La subsidiariedad contiene, además, obligaciones de solidaridad para quienes se encuentren en mejor posición para ayudar a sus semejantes."
+          },
+          {
+            "petition_q": "DIVISIÓN DE PODERES DEL ESTADO",
+            "petition_a": "Es relevante en cuanto a la desconcentración del poder, además de la descentralización política y administrativa."
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son los derechos, deberes y/o responsabilidades más importantes que el debate constitucional debe considerar?",
+        "petitions": [
+          {
+            "petition_q": "LIBERTAD DE EXPRESIÓN",
+            "petition_a": "Los medios de comunicación se consideran, con justicia, un cuarto poder del Estado. Permitir que las personas puedan expresarse libremente, por molestas que sus ideas resulten a otros, es uno de los pilares fundamentales de una democracia sana."
+          },
+          {
+            "petition_q": "DEBERES CIUDADANOS",
+            "petition_a": "La democracia es un orden que exige la participación de los ciudadanos para su correcto funcionamiento, y así tengan un activo rol en las políticas del país. Luego, es un deber al menos participar del sufragio."
+          },
+          {
+            "petition_q": "DEBER DE CUIDADO Y TUTELA",
+            "petition_a": "La sociedad no sólo está formada por adultos sanos y económicamente activos. También está compuesta de menores de edad, personas enfermas y ancianos. Existen deberes de cuidado y tutela respecto a estas personas que deben ser llevados adelante como prioridad y con máxima diligencia. Asimismo, la solidaridad exige una opción preferencial por los pobres en el ámbito de las políticas sociales."
+          }
+        ]
+      },
+      {
+        "question": "¿Cuáles son las instituciones del Estado más importantes para el debate constitucional y qué características deberían tener?",
+        "petitions": [
+          {
+            "petition_q": "PLEBISCITO, REFERÉNDUM Y CONSULTA",
+            "petition_a": "Los mecanismos de democracia directa ayudan al fortalecimiento de la participación ciudadana, y la posibilidad de hacernos partes de las políticas del país. Esto, de todos modos, debe ir acompañado de educación ciudadana que permita fortalecer la democracia en sí misma y la participación."
+          },
+          {
+            "petition_q": "CONGRESO",
+            "petition_a": "Es relevante la existencia de un Congreso para el proceso legislativo en sí mismo, pero también lo es para el equilibrio de poderes del Estado."
+          },
+          {
+            "petition_q": "TRIBUNAL CONSTITUCIONAL",
+            "petition_a": "La existencia de una Constitución por si misma no asegura el cumplimiento de esta, ni que esta se lleve a cabo en todo el aparato estatal. Por esto, que haya un TC es sano para velar por el resguardo de la Constitución en general, y en los distintos contextos particulares o contingentes."
+          }
+        ]
+      },
+      {
+        "question": "¿Cuál debería ser la instancia encargada de redactar una nueva constitución?",
+        "petitions": [
+          {
+            "petition_q": "CONGRESO",
+            "petition_a": "El Congreso, a través de una comisión bicameral de diputados y senadores."
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "uid": 4,
     "name": "Base Pública",
     "bg_color": "#D95F51",
     "logo": "/img/orgs/logo-basepublica.png",
@@ -165,7 +233,7 @@
     ]
   },
   {
-  "uid": 4,
+  "uid": 5,
   "name": "Chile Descentralizado",
   "bg_color": "#F89869",
   "logo": "/img/orgs/logo-descentralizado.png",
@@ -217,7 +285,7 @@
   }]
 },
   {
-    "uid": 5,
+    "uid": 6,
     "name": "Ciudad Emergente",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-ciudademergente.png",
@@ -281,7 +349,7 @@
     ]
   },
   {
-    "uid": 6,
+    "uid": 7,
     "name": "Ciudadano Inteligente",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fci.png",
@@ -349,7 +417,7 @@
     ]
   },
   {
-    "uid": 7,
+    "uid": 8,
     "name": "ComunidadMujer",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-mujer.png",
@@ -417,7 +485,7 @@
     ]
   },
   {
-    "uid": 8,
+    "uid": 9,
     "name": "Educación 2020",
     "bg_color": "#58B8A8",
     "logo": "/img/orgs/logo-2020.png",
@@ -485,7 +553,7 @@
     ]
   },
   {
-    "uid": 9,
+    "uid": 10,
     "name": "Fundación Superación de la Pobreza",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-fusupo.png",
@@ -545,7 +613,7 @@
     ]
   },
     {
-    "uid": 10,
+    "uid": 11,
     "name": "Girasoles",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-girasoles.png",
@@ -617,7 +685,7 @@
     ]
   },
   {
-    "uid": 11,
+    "uid": 12,
     "name": "Iguales",
     "bg_color": "#D95F51",
     "logo": "/img/orgs/logo-iguales.png",
@@ -677,7 +745,7 @@
     ]
   },
   {
-    "uid": 12,
+    "uid": 13,
     "name": "Hogar de Cristo",
     "bg_color": "#58B8A8",
     "logo": "/img/orgs/logo-hogar.png",
@@ -737,7 +805,7 @@
     ]
   },
   {
-    "uid": 13,
+    "uid": 14,
     "name": "Humanas",
     "bg_color": "#9967A8",
     "logo": "/img/orgs/logo-humanas.png",
@@ -809,7 +877,7 @@
     ]
   },
   {
-    "uid": 14,
+    "uid": 15,
     "name": "Opción",
     "bg_color": "#F89869",
     "logo": "/img/orgs/logo-opcion.png",
@@ -877,7 +945,7 @@
     ]
   },
     {
-    "uid": 15,
+    "uid": 16,
     "name": "Socialab",
     "bg_color": "#94D0DB",
     "logo": "/img/orgs/logo-socialab.png",
