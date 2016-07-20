@@ -44,6 +44,9 @@ h4 {
   font-size: 21px;
   font-weight: 200;
   margin-top: 0;
+  li{
+  margin-bottom: 12px;
+  }
 }
 
 hr {
@@ -237,13 +240,17 @@ section#video {
     margin-bottom: 0;
 }
 
-.tabs label#organiza {
+.tabs label#tips-cabildos {
   border: 4px solid $purple;
   color: $purple;
 }
 
 .tabs label#asiste {
   border: 4px solid $blue;
+  color: $blue;
+}
+
+.tabs label#asiste a{
   color: $blue;
 }
 
@@ -255,14 +262,17 @@ section#video {
   color: $green;
 }
 
-.tabs label#organiza:hover {
+.tabs label#tips-cabildos:hover {
   background: $purple;
     color: white;
 }
 
 .tabs label#asiste:hover {
   background: $blue;
-    color: white;
+}
+
+.tabs label#asiste a:hover {
+  color: white;
 }
 
 .tabs label#individual:hover {
@@ -273,7 +283,7 @@ section#video {
   color: white;
 }
 
-.tabs [id^="tab"]:checked + label#organiza {
+.tabs [id^="tab"]:checked + label#tips-cabildos {
     background: $purple;
     color: white;
 }
@@ -283,7 +293,7 @@ section#video {
     color: white;
 }
 
-.tabs [id^="tab"]:checked + label#organiza:after {
+.tabs [id^="tab"]:checked + label#tips-cabildos:after {
   top: 100%;
   left: 50%;
   border: solid transparent;
@@ -373,7 +383,7 @@ section#video {
 
 /*MI ENCUENTRO*/
 
-section#miencuentro {
+section#ideas {
   background: $stone-dark;
   color: white;
   padding: 0 0 80px;

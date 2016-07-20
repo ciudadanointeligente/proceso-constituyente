@@ -37,48 +37,50 @@ layout: default
     <h4 class="text-width text-center bajada">Pueden participar personas que tengan desde 14 años, sean chilenas o chilenos que vivan dentro o fuera del territorio nacional, o sean extranjeras o extranjeros residentes.</h4>
     <div class="tabs">
       <!-- Radio button and lable for #tab-content1 -->
-      <input type="radio" name="tabs" id="tab1" checked  onClick="ga('send','event','organiza','click')">
-      <label id="organiza" for="tab1">
-        <span><h3>Organiza tu encuentro</h3></span>
+      <input type="radio" name="tabs" id="tab1" checked  onClick="ga('send','event','tips-cabildos','click')">
+      <label id="tips-cabildos" for="tab1">
+        <span><h3>Tips Cabildos Provinciales</h3></span>
       </label>
       <!-- Radio button and lable for #tab-content2 -->
       <input type="radio" name="tabs" id="tab2" onClick="ga('send','event','asiste','click')">
       <label id="asiste" for="tab2">
-        <span><h3>Asiste a un encuentro</h3></span>
+        <a href="https://registro.unaconstitucionparachile.cl/" target="_blank" onClick="ga('send','event','web-constitucion-cl','click')"><span><h3>Asiste a un Cabildo</h3></span></a>
       </label>
       <!-- Radio button and lable for #tab-content3 -->
       <input type="radio" name="tabs" id="tab3" onClick="ga('send','event','participa','click')">
       <label id="individual" for="tab3">
-        <a href="https://www.unaconstitucionparachile.cl/registro" target="_blank" onClick="ga('send','event','web-constitucion-cl','click')"><span><h3>Participa individualmente</h3></span></a>
+        <a href="https://www.unaconstitucionparachile.cl/registro#registrate" target="_blank" onClick="ga('send','event','web-constitucion-cl','click')"><span><h3>Participa individualmente</h3></span></a>
       </label>
       <div id="tab-content1" class="tab-content">
         <div class="text-width text-center">
-          <h4>Los Encuentros Locales pueden ser inscritos con 5 días de anticipación hasta el 18 de junio, con un mínimo de 10 y un máximo de 30 participantes. Te invitamos a inscribirlo y habilitar la opción para que sea abierto. <strong>Inscribe tu encuentro en <a href="www.unaconstitucionparachile.cl" target="_blank" onClick="ga('send','event','inscribe-tu-encuentro','click')">unaconstitucionparachile.cl</a></strong></h4>
-          <h3><a href="https://docs.google.com/forms/d/1er5s8PWT6Cz5CWxt3Zqc7-Fn8Zh4XhPx2lN2MqVfkS8/viewform" class="btn btn-default btn-lg" role="button" target="_blank" onClick="ga('send','event','publica-tu-encuentro','click')">Publica tu encuentro</a></h3>
+          <h4>Finalizada la etapa de Encuentros Locales comienza el proceso de Cabildos Provinciales, reuniones abiertas en que <strong>como ciudadanía podemos seguir haciéndonos parte de la discusión constitucional.</strong> Los primeros cabildos se realizaron el 16 de julio en Magallanes y en el resto del país se realizarán el sábado 23 y domingo 24 de julio. <strong>Inscríbete a un cabildo en <a href="www.unaconstitucionparachile.cl" target="_blank" onClick="ga('send','event','inscribete-en-cabildo','click')">unaconstitucionparachile.cl</a></strong>. Compartimos contigo algunos tips.</h4>
         </div>
-        {% include calendario-de-encuentros.html %}
-        </div> <!-- #tab-content1 -->
-        <div id="tab-content2" class="tab-content text-center">
-          <h4>Revisa el calendario de encuentros para sumarte al que prefieras.</h4>
-          <h3><!-- Tab title here --></h3>
-          {% include calendario-de-encuentros.html %}
-          </div> <!-- #tab-content2 -->
+        <div class="col-md-8 col-md-offset-2">
+          <h4>
+          <ul>
+            <li>Cualquier persona mayor de 14 años chilena o extranjera residente puede asistir a un cabildo, haya participado de las etapas anteriores del Proceso Constituyente o no.</li>
+            <li>En los cabildos nos dividirán en grupos de entre 15 a 20 personas y tendremos que responder el conjunto de preguntas que guían la discusión constitucional.</li>
+            <li>Los 7 conceptos de cada sección que más se hayan repetido y priorizado en los encuentros locales serán discutidos por las mesas de trabajo en los cabildos, pero también se podrán agregar 7 conceptos más en cada pregunta.</li>
+            <li>Al final del cabildo se desarrollará un cierre colectivo. Ahí, un representante de cada uno de los grupos de trabajo explicará lo que resultó de su discusión y se construirá el acta del cabildo.</li>
+            <li>Este no es un ejercicio académico y no necesitas ser un experto para participar, todos tenemos algo que decir acerca del país que compartimos y que queremos.</li>
+          </ul>
+          </h4>
+        </div>
+      </div> <!-- #tab-content1 -->
         </div>
       </section>
-      <section id="miencuentro">
+      <section id="ideas">
         <div class="container">
-          <h2 class="text-center">Viene mi encuentro local</h2>
-          <h4 class="text-width text-center bajada">Revisa nuestra metodología e inspírate con las ideas que han salido desde la sociedad civil para la nueva Constitución.</h4>
-          <div class="row">
+          <h2 class="text-center">Ideas desde la Sociedad Civil para la nueva Constitución</h2>
+          <h4 class="text-width text-center bajada">Selecciona cada organización para conocer sus opiniones respecto a las temáticas a tocar en los encuentros locales y en la consulta individual.</h4>
+          <div class="row hidden">
             <div class="col-md-4 hidden-xs"><img src="{{ site.baseurl }}/img/participacion02.svg" width="100%"></div>
             <div class="col-md-8 text-right margin-top"><h4>Revisa los consejos y dinámica metodológica que <a href="http://ciudadanointeligente.org/" onClick="ga('send','event','fci-link','click')">Fundación Ciudadano Inteligente</a> comparte  para llevar a cabo un Encuentro Local.</h4>
             <h3><a href="{{ site.baseurl }}/dinamica-fci.pdf" class="btn btn-default btn-lg" onClick="ga('send','event','tips-metodologia-pdf','click')">Tips y metodología</a></h3>
+            </div>
           </div>
-        </div>
         <div class="row margin-top">
           <div class="col-md-8">
-            <h4>Ideas desde la Sociedad Civil para la nueva Constitución</h4>
-            <p class="bajada">Selecciona cada organización para conocer sus opiniones respecto a las temáticas a tocar en los encuentros locales y en la consulta individual. </p>
             <div>
               <ul class="list-inline hidden-xs">
                 <li ng-repeat="org in orgs" ng-click="getOrgInfo(org)"><button class="btn btn-default pull-right">[[org.name]]</button></li>
